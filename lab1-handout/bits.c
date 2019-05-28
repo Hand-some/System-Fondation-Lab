@@ -171,7 +171,7 @@ NOTES:
  *   Rating: 1
  */
 
-
+//先逻辑右移，使最后一位被移除，然后逻辑左移进行补零
 int lsbZero(int x) {
   return (x>>1)<<1;
 }
@@ -183,6 +183,7 @@ int lsbZero(int x) {
  *   Max ops: 6
  *   Rating: 2
  */
+//位运算中取反的方式是将所需取反的位和1相与，因此对于将字节取反的要求，只需要让相应的字节与11111111相与即可
 int byteNot(int x, int n) {
 	int y = 0xff;
 	return x^(y<<(n<<3));
@@ -197,6 +198,7 @@ int byteNot(int x, int n) {
  *   Max ops: 20
  *   Rating: 2 
  */
+//x与y异或，然后右移n个字节，与0xffh相与，从而实现对相应字节相与之后结果的提取，然后进行两次取非，输出0/1
 int byteXor(int x, int y, int n) {
   return !!(((x^y)>>(n<<3))&0xff);
 }
@@ -206,6 +208,7 @@ int byteXor(int x, int y, int n) {
  *   Max ops: 20
  *   Rating: 3 
  */
+//
 int logicalAnd(int x, int y) {
   return !((!x)|(!y));
 }
