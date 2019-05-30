@@ -1,0 +1,6245 @@
+gary@gary:~$ cd 文档
+gary@gary:~/文档$ cd system_structure/
+gary@gary:~/文档/system_structure$ cd System-Fondation-Lab/
+gary@gary:~/文档/system_structure/System-Fondation-Lab$ cd ls
+bash: cd: ls: 没有那个文件或目录
+gary@gary:~/文档/system_structure/System-Fondation-Lab$ ls
+CS20170708        Lab2：Binary Bomb实验指导学生书.pdf
+CS20170708.zip    README.md
+lab1-handout      计算机系统基础实验任务书(LAB1)  20190428.pdf
+lab1-handout.tar
+gary@gary:~/文档/system_structure/System-Fondation-Lab$ cd CS20170708/
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708$ cd U201714854gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ lsbomb  bomb.c  disassemble.txt  ID  README  U201714854.txt
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ strings bomb
+/lib/ld-linux.so.2
+3VR1$
+libc.so.6
+_IO_stdin_used
+socket
+fflush
+strcpy
+__printf_chk
+exit
+fopen
+__isoc99_sscanf
+connect
+signal
+puts
+__stack_chk_fail
+stdin
+strtol
+fgets
+__errno_location
+read
+__fprintf_chk
+stdout
+__memmove_chk
+__ctype_b_loc
+getenv
+stderr
+alarm
+gethostbyname
+close
+sleep
+__sprintf_chk
+__libc_start_main
+write
+__gmon_start__
+GLIBC_2.3
+GLIBC_2.1
+GLIBC_2.7
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.0
+PTRh
+D$$1
+D$D1
+D$<e3
+D$\1
+D$\e3
+UWVS
+[^_]
+UWVS
+D$@P
+Erro
+r: C
+lien
+t un
+able
+ to 
+crea
+te s
+@ ockef
+Erro
+r: D
+NS i
+s un
+able
+ to 
+reso
+lve 
+@ serv
+@$er a
+@(ddref
+@,ss
+Erro
+r: U
+nabl
+e to
+ con
+nect
+ to 
+the 
+@ servf
+@$er
+Erro
+r: R
+esul
+t st
+ring
+ too
+ lar
+ge. 
+@ Incr
+@$ease
+@( SUB
+@,MITR
+@0_MAX
+@4BUF
+<_v	
+D$<P
+Erro
+r: C
+lien
+t un
+able
+ to 
+writ
+e to
+@  the
+@$ ser
+@(ver
+Erro
+r: C
+lien
+t un
+able
+ to 
+read
+ fir
+@ st h
+@$eade
+@(r fr
+@,om s
+@0ervef
+Erro
+r: C
+lien
+t un
+able
+ to 
+read
+ hea
+@ ders
+@$ fro
+@(m se
+@,rver
+|$ W
+[^_]
+Erro
+r: C
+lien
+t un
+able
+ to 
+read
+ sta
+@ tus 
+@$mess
+@(age 
+@,from
+@0 ser
+@4ver
+t$8e
+D$$1
+ [^_
+Erro
+r: C
+lien
+t un
+able
+ to 
+crea
+te s
+F ockef
+Erro
+r: D
+NS i
+s un
+able
+ to 
+reso
+lve 
+F serv
+F$er a
+F(ddref
+F,ss
+UWVS
+t$,U
+[^_]
+%s: Error: Couldn't open %s
+Usage: %s [<input_file>]
+That's number 2.  Keep going!
+Halfway there!
+Good work!  On to the next...
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+So you got that one.  Try this one.
+Crikey! I have lost my mojo!
+Wow! You've defused the secret stage!
+So you think you can stop the bomb with ctrl-c, do you?
+Curses, you've found the secret phase!
+But finding it and solving it are quite different...
+Congratulations! You've defused the bomb!
+Well...
+OK. :-)
+Invalid phase%s
+BOOM!!!
+The bomb has blown up.
+%d %d %d %d %d %d
+Error: Premature EOF on stdin
+GRADE_BOMB
+Error: Input line too long
+***truncated***
+%d %d %s
+DrEvil
+greatwhite.ics.cs.cmu.edu
+angelshark.ics.cs.cmu.edu
+makoshark.ics.cs.cmu.edu
+Program timed out after %d seconds
+Error: HTTP request failed with error %d: %s
+Error: Result string contains an illegal or unprintable character.
+GET /%s/submitr.pl/?userid=%s&lab=%s&result=%s&submit=submit HTTP/1.0
+%s %d %[a-zA-z ]
+114.212.81.21
+AUTORESULT_STRING=%s
+bomblab
+csapp
+;*2$"
+GCC: (Ubuntu 6.3.0-12ubuntu2) 6.3.0 20170406
+<Welcome to my fiendish little bomb. You have 6 phases with
+-which to blow yourself up. Have a nice day!
+*Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+Halfway there!
+%So you got that one.  Try this one.
+Good work!  On to the next...
+/usr/include/i386-linux-gnu/bits
+/usr/lib/gcc/i686-linux-gnu/6/include
+/usr/include
+bomb.c
+stdio2.h
+stddef.h
+types.h
+stdio.h
+libio.h
+sys_errlist.h
+support.h
+phases.h
+stdlib.h
+<built-in>
+printf
+__off_t
+_IO_read_ptr
+_chain
+size_t
+_shortbuf
+_IO_2_1_stderr_
+_IO_buf_base
+GNU C11 6.3.0 20170406 -mtune=generic -march=i686 -ggdb -O1 -fstack-protector-strong
+long long unsigned int
+read_line
+long long int
+phase_defused
+_fileno
+_IO_read_end
+_flags
+_IO_buf_end
+_cur_column
+__quad_t
+__printf_chk
+_old_offset
+infile
+initialize_bomb
+_IO_marker
+stdin
+_IO_FILE_plus
+_IO_write_ptr
+sys_nerr
+_sbuf
+short unsigned int
+_IO_save_base
+_lock
+_flags2
+_mode
+__builtin_puts
+stdout
+_IO_2_1_stdin_
+sizetype
+_IO_write_end
+/home/wangdq/ics2019/lab2/src
+_IO_lock_t
+_IO_FILE
+fopen
+_pos
+sys_errlist
+_markers
+unsigned char
+short int
+_vtable_offset
+_IO_2_1_stdout_
+exit
+bomb.c
+input
+_next
+__off64_t
+_IO_read_base
+_IO_save_end
+__fmt
+__pad1
+__pad2
+__pad3
+__pad4
+__pad5
+_unused2
+stderr
+argv
+phase_1
+phase_2
+phase_3
+phase_4
+phase_5
+phase_6
+_IO_backup_base
+argc
+main
+_IO_write_base
+crtstuff.c
+__JCR_LIST__
+deregister_tm_clones
+__do_global_dtors_aux
+completed.7176
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+bomb.c
+phases.c
+array.3048
+support.c
+sig_handler
+driverlib.c
+rio_readlineb
+__FRAME_END__
+__JCR_END__
+__init_array_end
+_DYNAMIC
+__init_array_start
+__GNU_EH_FRAME_HDR
+_GLOBAL_OFFSET_TABLE_
+__libc_csu_fini
+skip
+phase_defused
+read@@GLIBC_2.0
+__x86.get_pc_thunk.bx
+fflush@@GLIBC_2.0
+stderr@@GLIBC_2.0
+fgets@@GLIBC_2.0
+_edata
+signal@@GLIBC_2.0
+sleep@@GLIBC_2.0
+alarm@@GLIBC_2.0
+__stack_chk_fail@@GLIBC_2.4
+num_input_strings
+phase_5
+initialize_bomb_solve
+blank_line
+submitr
+phase_3
+phase_1
+invalid_phase
+init_driver
+strcpy@@GLIBC_2.0
+node3
+explode_bomb
+node1
+getenv@@GLIBC_2.0
+__data_start
+puts@@GLIBC_2.0
+node5
+__memmove_chk@@GLIBC_2.3.4
+__gmon_start__
+exit@@GLIBC_2.0
+fun7
+__dso_handle
+_IO_stdin_used
+host_table
+func4
+__libc_start_main@@GLIBC_2.0
+write@@GLIBC_2.0
+string_length
+__libc_csu_init
+stdin@@GLIBC_2.0
+__isoc99_sscanf@@GLIBC_2.7
+fopen@@GLIBC_2.1
+__errno_location@@GLIBC_2.0
+secret_phase
+_fp_hw
+infile
+sigalrm_handler
+init_timeout
+stdout@@GLIBC_2.0
+__bss_start
+main
+__printf_chk@@GLIBC_2.3.4
+read_line
+strings_not_equal
+phase_4
+phase_6
+scratch
+driver_post
+phase_2
+bomb_id
+socket@@GLIBC_2.0
+__TMC_END__
+__fprintf_chk@@GLIBC_2.3.4
+node2
+node4
+gethostbyname@@GLIBC_2.0
+strtol@@GLIBC_2.0
+node6
+connect@@GLIBC_2.0
+close@@GLIBC_2.0
+read_six_numbers
+initialize_bomb
+__ctype_b_loc@@GLIBC_2.3
+__sprintf_chk@@GLIBC_2.3.4
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.dynamic
+.got.plt
+.data
+.bss
+.comment
+.debug_aranges
+.debug_info
+.debug_abbrev
+.debug_line
+.debug_str
+.debug_loc
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ wqwq：未找到命令
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vi bomb.c
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_1
+Breakpoint 1 at 0x8048b42
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) n
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+warning: Source file is more recent than executable.
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) n
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) n
+Phase 1 defused. How about the next one?
+81	    input = read_line();
+(gdb) n
+3 4 5 6 7 8
+82	    phase_2(input);
+(gdb) x/20x %esp
+A syntax error in expression, near `%esp'.
+(gdb) x/20x $esp
+0xffffcfa0:	0x08049fb4	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+0xffffcfd0:	0x00000001	0xffffd064	0xffffd06c	0x00000000
+0xffffcfe0:	0x00000000	0x00000000	0xf7fb8000	0xf7ffdc04
+(gdb) n
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 7874) exited with code 010]
+(gdb) end
+This command cannot be used at the top level.
+(gdb) exit
+Undefined command: "exit".  Try "help".
+(gdb) quit
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_2
+Breakpoint 1 at 0x8048b65
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+3 4 5 6 7 8
+
+Breakpoint 1, 0x08048b65 in phase_2 ()
+(gdb) N
+Single stepping until exit from function phase_2,
+which has no line number information.
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 8181) exited with code 010]
+(gdb) quit
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_1
+Breakpoint 1 at 0x8048b42
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) n
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+warning: Source file is more recent than executable.
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) n
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Phase 1 defused. How about the next one?
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:81
+81	    input = read_line();
+(gdb) s
+3 4 5 6 7 8
+82	    phase_2(input);
+(gdb) s
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 8198) exited with code 010]
+(gdb) quit
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) -tui
+Undefined command: "-tui".  Try "help".
+(gdb) b phase_1
+Breakpoint 1 at 0x8048b42
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) step
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+warning: Source file is more recent than executable.
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) step
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) step
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) step
+Phase 1 defused. How about the next one?
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:81
+81	    input = read_line();
+(gdb) step
+3 4 5 6 7 8
+82	    phase_2(input);
+(gdb) step
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 8363) exited with code 010]
+(gdb) quit
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_1
+Breakpoint 1 at 0x8048b42
+(gdb) ni
+The program is not being run.
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) s
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+warning: Source file is more recent than executable.
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) s
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Phase 1 defused. How about the next one?
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:81
+81	    input = read_line();
+(gdb) si
+0x08049146 in read_line ()
+(gdb) si
+0x08049147 in read_line ()
+(gdb) si
+0x08049148 in read_line ()
+(gdb) si
+0x08049149 in read_line ()
+(gdb) si
+0x080490a1 in skip ()
+(gdb) si
+0x080490a2 in skip ()
+(gdb) si
+0x080490a5 in skip ()
+(gdb) si
+0x080490a8 in skip ()
+(gdb) si
+0x080490ae in skip ()
+(gdb) si
+0x080490b0 in skip ()
+(gdb) si
+0x080490b5 in skip ()
+(gdb) si
+0x080490b8 in skip ()
+(gdb) si
+0x080490bb in skip ()
+(gdb) si
+0x080490c0 in skip ()
+(gdb) si
+0x080490c1 in skip ()
+(gdb) si
+0x08048750 in fgets@plt ()
+(gdb) si
+0xf7e65620 in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e65621 in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e65623 in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e65624 in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e65625 in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e65626 in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7f25285 in ?? () from /lib32/libc.so.6
+(gdb) si
+0xf7f25288 in ?? () from /lib32/libc.so.6
+(gdb) si
+0xf7e6562b in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e65631 in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e65634 in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e65637 in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e6563a in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e6563c in fgets () from /lib32/libc.so.6
+(gdb) si
+0xf7e65642 in fgets () from /lib32/libc.so.6
+(gdb) s
+Single stepping until exit from function fgets,
+which has no line number information.
+j   
+0x080490c6 in skip ()
+(gdb) s
+Single stepping until exit from function skip,
+which has no line number information.
+0x0804914e in read_line ()
+(gdb) si
+0x08049150 in read_line ()
+(gdb) si
+0x08049152 in read_line ()
+(gdb) si
+0x08049158 in read_line ()
+(gdb) si
+0x0804915b in read_line ()
+(gdb) si
+0x0804915e in read_line ()
+(gdb) si
+0x08049164 in read_line ()
+(gdb) si
+0x08049169 in read_line ()
+(gdb) si
+0x0804916e in read_line ()
+(gdb) si
+0x08049170 in read_line ()
+(gdb) si
+0x08049170 in read_line ()
+(gdb) si
+0x08049170 in read_line ()
+(gdb) si
+0x08049172 in read_line ()
+(gdb) si
+0x08049174 in read_line ()
+(gdb) si
+0x08049177 in read_line ()
+(gdb) si
+0x0804917a in read_line ()
+(gdb) si
+0x08049180 in read_line ()
+(gdb) si
+0x08049183 in read_line ()
+(gdb) si
+0x08049186 in read_line ()
+(gdb) si
+0x0804918e in read_line ()
+(gdb) si
+0x08049191 in read_line ()
+(gdb) si
+0x08049197 in read_line ()
+(gdb) si
+0x08049199 in read_line ()
+(gdb) si
+0x0804919a in read_line ()
+(gdb) si
+0x0804919b in read_line ()
+(gdb) si
+0x0804919c in read_line ()
+(gdb) si
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:82
+82	    phase_2(input);
+(gdb) si
+0x08048a65	82	    phase_2(input);
+(gdb) si
+0x08048b65 in phase_2 ()
+(gdb) si
+0x08048b66 in phase_2 ()
+(gdb) si
+0x08048b67 in phase_2 ()
+(gdb) si
+0x08048b6a in phase_2 ()
+(gdb) si
+0x08048b70 in phase_2 ()
+(gdb) si
+0x08048b74 in phase_2 ()
+(gdb) si
+0x08048b76 in phase_2 ()
+(gdb) si
+0x08048b7a in phase_2 ()
+(gdb) si
+0x08048b7b in phase_2 ()
+(gdb) si
+0x08048b7f in phase_2 ()
+(gdb) si
+0x0804910b in read_six_numbers ()
+(gdb) si
+0x0804910e in read_six_numbers ()
+(gdb) si
+0x08049112 in read_six_numbers ()
+(gdb) si
+0x08049115 in read_six_numbers ()
+(gdb) si
+0x08049116 in read_six_numbers ()
+(gdb) si
+0x08049119 in read_six_numbers ()
+(gdb) si
+0x0804911a in read_six_numbers ()
+(gdb) si
+0x0804911d in read_six_numbers ()
+(gdb) si
+0x0804911e in read_six_numbers ()
+(gdb) si
+0x08049121 in read_six_numbers ()
+(gdb) si
+0x08049122 in read_six_numbers ()
+(gdb) si
+0x08049125 in read_six_numbers ()
+(gdb) si
+0x08049126 in read_six_numbers ()
+(gdb) si
+0x08049127 in read_six_numbers ()
+(gdb) si
+0x0804912c in read_six_numbers ()
+(gdb) si
+0x08049130 in read_six_numbers ()
+(gdb) si
+0x08048810 in __isoc99_sscanf@plt ()
+(gdb) si
+0x08048816 in __isoc99_sscanf@plt ()
+(gdb) si
+0x0804881b in __isoc99_sscanf@plt ()
+(gdb) si
+0x08048720 in ?? ()
+(gdb) si
+0x08048726 in ?? ()
+(gdb) si
+0xf7fedfe0 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fedfe1 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fedfe2 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fedfe3 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fedfe7 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fedfeb in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77e0 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77e1 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77e2 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77e4 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77e5 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77e6 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7ff28cd in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7ff28d0 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77eb in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77f1 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77f4 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77f7 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77fa in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe77fe in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7801 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7804 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7807 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe780b in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe780d in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7810 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7813 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7815 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7818 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe781a in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe781d in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7820 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7822 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7824 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7827 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe782b in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7831 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7835 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7837 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe783d in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7843 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7845 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe784b in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe784e in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7852 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7858 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe785b in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7861 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7864 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7866 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe786b in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe786e in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7875 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7877 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe787c in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7882 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7886 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7888 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe788c in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe788f in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7891 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7892 in ?? () from /lib/ld-linux.so.2
+(gdb) 
+0xf7fe7894 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7895 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe7897 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe789d in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a60 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a61 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a63 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a64 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a65 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a66 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a6b in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7ff28d1 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7ff28d4 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a70 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a76 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a79 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a7c in ?? () from /lib/ld-linux.so.2
+(gdb) x/20x $esp
+0xffffce28:	0xf7fb8000	0xf7e71627	0x00000000	0x0804d410
+0xffffce38:	0x00000400	0x00000001	0x00000000	0x00000001
+0xffffce48:	0xf7e07700	0x08048423	0x00000000	0x00000001
+0xffffce58:	0xf7e7150b	0xf7fb85a0	0xf7fb85a0	0xf7fb85a0
+0xffffce68:	0x0000004f	0xf7e725e7	0xf7fb85a0	0xf7ffd918
+(gdb) x/20x $esp
+0xffffce28:	0xf7fb8000	0xf7e71627	0x00000000	0x0804d410
+0xffffce38:	0x00000400	0x00000001	0x00000000	0x00000001
+0xffffce48:	0xf7e07700	0x08048423	0x00000000	0x00000001
+0xffffce58:	0xf7e7150b	0xf7fb85a0	0xf7fb85a0	0xf7fb85a0
+0xffffce68:	0x0000004f	0xf7e725e7	0xf7fb85a0	0xf7ffd918
+(gdb) si
+0xf7fe2a7f in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a81 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a84 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a87 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a8a in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a8c in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a8e in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a90 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a92 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a95 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a98 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9a in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9c in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9f in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2aa1 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a90 in ?? () from /lib/ld-linux.so.2
+(gdb) s
+Cannot find bounds of current function
+(gdb) s
+Cannot find bounds of current function
+(gdb) s
+Cannot find bounds of current function
+(gdb) si
+0xf7fe2a92 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a95 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a98 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9a in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9c in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9f in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2aa1 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a90 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a92 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a95 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a98 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9a in ?? () from /lib/ld-linux.so.2
+(gdb) step
+Cannot find bounds of current function
+(gdb) si
+0xf7fe2a9c in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9f in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2aa1 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a90 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a92 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a95 in ?? () from /lib/ld-linux.so.2
+(gdb) 
+0xf7fe2a98 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9a in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9c in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9f in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2aa1 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a90 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a92 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a95 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a98 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9a in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9c in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a9f in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2aa1 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a90 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a92 in ?? () from /lib/ld-linux.so.2
+(gdb) si
+0xf7fe2a95 in ?? () from /lib/ld-linux.so.2
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 8387] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_1
+Breakpoint 1 at 0x8048b42
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) s
+Single stepping until exit from function phase_1,
+which has no line number information.
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 8467) exited with code 010]
+(gdb) 
+The program is not being run.
+(gdb) b phase_1
+Note: breakpoint 1 also set at pc 0x8048b42.
+Breakpoint 2 at 0x8048b42
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) s
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+warning: Source file is more recent than executable.
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) s
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Phase 1 defused. How about the next one?
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:81
+81	    input = read_line();
+(gdb) s
+2 3 4 5 6 7  
+82	    phase_2(input);
+(gdb) si
+0x08048a65	82	    phase_2(input);
+(gdb) ni
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 8479) exited with code 010]
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) s
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) s
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Phase 1 defused. How about the next one?
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:81
+81	    input = read_line();
+(gdb) n
+1 2 3 4 5 6
+82	    phase_2(input);
+(gdb) si
+0x08048a65	82	    phase_2(input);
+(gdb) s
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 8506) exited with code 010]
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) n
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) s
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>) at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Phase 1 defused. How about the next one?
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:81
+81	    input = read_line();
+(gdb) s
+1 2 3 4 5 6
+82	    phase_2(input);
+(gdb) si
+0x08048a65	82	    phase_2(input);
+(gdb) si
+0x08048b65 in phase_2 ()
+(gdb) si
+0x08048b66 in phase_2 ()
+(gdb) s
+Single stepping until exit from function phase_2,
+which has no line number information.
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 8514) exited with code 010]
+(gdb) b read_six_number
+Function "read_six_number" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) b 8048b84
+Function "8048b84" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) b 08048b84
+Function "08048b84" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) quit
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_1
+Breakpoint 1 at 0x8048b42
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) b 385
+No line 385 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) break 385
+No line 385 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) s
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+warning: Source file is more recent than executable.
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) s
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) b 385
+No line 385 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) b 2
+Breakpoint 2 at 0x80489db: file bomb.c, line 2.
+(gdb) si
+0x08048a58 in printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) si
+0x080487c0 in puts@plt ()
+(gdb) si
+0xf7e67140 in puts () from /lib32/libc.so.6
+(gdb) s
+Single stepping until exit from function puts,
+which has no line number information.
+Phase 1 defused. How about the next one?
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:81
+81	    input = read_line();
+(gdb) s
+1 2 3 4 5 6
+82	    phase_2(input);
+(gdb) x/40x $esp
+0xffffcfa0:	0x08049fb4	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+0xffffcfd0:	0x00000001	0xffffd064	0xffffd06c	0x00000000
+0xffffcfe0:	0x00000000	0x00000000	0xf7fb8000	0xf7ffdc04
+0xffffcff0:	0xf7ffd000	0x00000000	0xf7fb8000	0xf7fb8000
+0xffffd000:	0x00000000	0x738d2e30	0x48196020	0x00000000
+0xffffd010:	0x00000000	0x00000000	0x00000001	0x080488e0
+0xffffd020:	0x00000000	0xf7fedff0	0xf7fe8880	0xf7ffd000
+0xffffd030:	0x00000001	0x080488e0	0x00000000	0x08048901
+(gdb) si
+0x08048a65	82	    phase_2(input);
+(gdb) si
+0x08048b65 in phase_2 ()
+(gdb) si
+0x08048b66 in phase_2 ()
+(gdb) si
+0x08048b67 in phase_2 ()
+(gdb) si
+0x08048b6a in phase_2 ()
+(gdb) si
+0x08048b70 in phase_2 ()
+(gdb) si
+0x08048b74 in phase_2 ()
+(gdb) si
+0x08048b76 in phase_2 ()
+(gdb) si
+0x08048b7a in phase_2 ()
+(gdb) si
+0x08048b7b in phase_2 ()
+(gdb) si
+0x08048b7f in phase_2 ()
+(gdb) si
+0x0804910b in read_six_numbers ()
+(gdb) s
+Single stepping until exit from function read_six_numbers,
+which has no line number information.
+0x08048b84 in phase_2 ()
+(gdb) s
+Single stepping until exit from function phase_2,
+which has no line number information.
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 8550) exited with code 010]
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+
+Breakpoint 2, main (argc=1, argv=0xffffd064) at bomb.c:37
+37	{
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+
+Breakpoint 2, main (argc=1, argv=0xffffd064) at bomb.c:37
+37	{
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 8660] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_1
+Breakpoint 1 at 0x8048b42
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) n
+Program not restarted.
+(gdb) s
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+warning: Source file is more recent than executable.
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) s
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Phase 1 defused. How about the next one?
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:81
+81	    input = read_line();
+(gdb) s
+1 2 3 4 5 6
+82	    phase_2(input);
+(gdb) si
+0x08048a65	82	    phase_2(input);
+(gdb) si
+0x08048b65 in phase_2 ()
+(gdb) si
+0x08048b66 in phase_2 ()
+(gdb) si
+0x08048b67 in phase_2 ()
+(gdb) si
+0x08048b6a in phase_2 ()
+(gdb) si
+0x08048b70 in phase_2 ()
+(gdb) si
+0x08048b74 in phase_2 ()
+(gdb) si
+0x08048b76 in phase_2 ()
+(gdb) si
+0x08048b7a in phase_2 ()
+(gdb) si
+0x08048b7b in phase_2 ()
+(gdb) si
+0x08048b7f in phase_2 ()
+(gdb) si
+0x0804910b in read_six_numbers ()
+(gdb) s
+Single stepping until exit from function read_six_numbers,
+which has no line number information.
+0x08048b84 in phase_2 ()
+(gdb) si
+0x08048b87 in phase_2 ()
+(gdb) x/20x $esp
+0xffffcf70:	0x0804c430	0x00000001	0x00000002	0x00000003
+0xffffcf80:	0x00000004	0x00000005	0x00000006	0xbfb74f00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048a6a
+0xffffcfa0:	0x0804c430	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 8664] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_1
+Breakpoint 1 at 0x8048b42
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) s
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+warning: Source file is more recent than executable.
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) s
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Phase 1 defused. How about the next one?
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:81
+81	    input = read_line();
+(gdb) s
+1 2 3 4 5 6
+82	    phase_2(input);
+(gdb) si
+0x08048a65	82	    phase_2(input);
+(gdb) si
+0x08048b65 in phase_2 ()
+(gdb) si
+0x08048b66 in phase_2 ()
+(gdb) si
+0x08048b67 in phase_2 ()
+(gdb) si
+0x08048b6a in phase_2 ()
+(gdb) si
+0x08048b70 in phase_2 ()
+(gdb) si
+0x08048b74 in phase_2 ()
+(gdb) si
+0x08048b76 in phase_2 ()
+(gdb) si
+0x08048b7a in phase_2 ()
+(gdb) si
+0x08048b7b in phase_2 ()
+(gdb) si
+0x08048b7f in phase_2 ()
+(gdb) si
+0x0804910b in read_six_numbers ()
+(gdb) x/20x $esp
+0xffffcf5c:	0x08048b84	0x0804c430	0xffffcf74	0xf7fb8000
+0xffffcf6c:	0x080490d8	0x0804c430	0x00000050	0xf7fb85a0
+0xffffcf7c:	0xf7fb8d60	0x0804c3e0	0x0804a004	0xffffd064
+0xffffcf8c:	0x1225cf00	0xffffd064	0xffffd064	0xf7fb8000
+0xffffcf9c:	0x08048a6a	0x0804c430	0xffffd064	0xffffd06c
+(gdb) x/20x $esp
+0xffffcf5c:	0x08048b84	0x0804c430	0xffffcf74	0xf7fb8000
+0xffffcf6c:	0x080490d8	0x0804c430	0x00000050	0xf7fb85a0
+0xffffcf7c:	0xf7fb8d60	0x0804c3e0	0x0804a004	0xffffd064
+0xffffcf8c:	0x1225cf00	0xffffd064	0xffffd064	0xf7fb8000
+0xffffcf9c:	0x08048a6a	0x0804c430	0xffffd064	0xffffd06c
+(gdb) si
+0x0804910e in read_six_numbers ()
+(gdb) s
+Single stepping until exit from function read_six_numbers,
+which has no line number information.
+0x08048b84 in phase_2 ()
+(gdb) x/20x $esp
+0xffffcf60:	0x0804c430	0xffffcf74	0xf7fb8000	0x080490d8
+0xffffcf70:	0x0804c430	0x00000001	0x00000002	0x00000003
+0xffffcf80:	0x00000004	0x00000005	0x00000006	0x1225cf00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048a6a
+0xffffcfa0:	0x0804c430	0xffffd064	0xffffd06c	0x08048a26
+(gdb) si
+0x08048b87 in phase_2 ()
+(gdb) x/20x $esp
+0xffffcf70:	0x0804c430	0x00000001	0x00000002	0x00000003
+0xffffcf80:	0x00000004	0x00000005	0x00000006	0x1225cf00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048a6a
+0xffffcfa0:	0x0804c430	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+(gdb) si
+0x08048b8c in phase_2 ()
+(gdb) si
+0x08048b93 in phase_2 ()
+(gdb) x/20x $esp
+0xffffcf70:	0x0804c430	0x00000001	0x00000002	0x00000003
+0xffffcf80:	0x00000004	0x00000005	0x00000006	0x1225cf00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048a6a
+0xffffcfa0:	0x0804c430	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 8747] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vi U201714854.txt 
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ ./bomb U201714854.txt 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+df
+
+BOOM!!!
+The bomb has blown up.
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase-1
+Function "phase-1" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) b phase_1
+Breakpoint 1 at 0x8048b42
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have no mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) s
+Single stepping until exit from function phase_1,
+which has no line number information.
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 8893) exited with code 010]
+(gdb) quit
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vi U201714854.txt 
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_1
+Breakpoint 1 at 0x8048b42
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+
+Breakpoint 1, 0x08048b42 in phase_1 ()
+(gdb) s
+Single stepping until exit from function phase_1,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:75
+warning: Source file is more recent than executable.
+75	    phase_defused();                 /* Drat!  They figured it out!
+(gdb) s
+77	    printf("Phase 1 defused. How about the next one?\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Phase 1 defused. How about the next one?
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:81
+81	    input = read_line();
+(gdb) s
+1 2 4 8 16 32
+82	    phase_2(input);
+(gdb) si
+0x08048a65	82	    phase_2(input);
+(gdb) si
+0x08048b65 in phase_2 ()
+(gdb) b 384
+No line 384 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) s
+Single stepping until exit from function phase_2,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:83
+83	    phase_defused();
+(gdb) s
+84	    printf("That's number 2.  Keep going!\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+That's number 2.  Keep going!
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:88
+88	    input = read_line();
+(gdb) s
+test
+89	    phase_3(input);
+(gdb) si
+0x08048a83	89	    phase_3(input);
+(gdb) si
+0x08048bcc in phase_3 ()
+(gdb) si
+0x08048bcf in phase_3 ()
+(gdb) si
+0x08048bd5 in phase_3 ()
+(gdb) si
+0x08048bd9 in phase_3 ()
+(gdb) si
+0x08048bdb in phase_3 ()
+(gdb) si
+0x08048bdf in phase_3 ()
+(gdb) x/ $eax
+0xffffcf88:	-12188
+(gdb) x/20 $eax
+0xffffcf88:	-12188	-403365632	-12188	-134512640
+0xffffcf98:	-134512640	134515336	134530176	-12188
+0xffffcfa8:	-12180	134515238	-12336	0
+0xffffcfb8:	0	-136182217	-134512640	-134512640
+0xffffcfc8:	0	-136182217	1	-12188
+(gdb) si
+0x08048be0 in phase_3 ()
+(gdb) si
+0x08048be4 in phase_3 ()
+(gdb) x/20 $eax
+0xffffcf84:	16	-12188	-403365632	-12188
+0xffffcf94:	-134512640	-134512640	134515336	134530176
+0xffffcfa4:	-12188	-12180	134515238	-12336
+0xffffcfb4:	0	0	-136182217	-134512640
+0xffffcfc4:	-134512640	0	-136182217	1
+(gdb) x/20 $eax
+0xffffcf84:	16	-12188	-403365632	-12188
+0xffffcf94:	-134512640	-134512640	134515336	134530176
+0xffffcfa4:	-12188	-12180	134515238	-12336
+0xffffcfb4:	0	0	-136182217	-134512640
+0xffffcfc4:	-134512640	0	-136182217	1
+(gdb) si
+0x08048be5 in phase_3 ()
+(gdb) si
+0x08048bea in phase_3 ()
+(gdb) si
+0x08048bee in phase_3 ()
+(gdb) si
+0x08048810 in __isoc99_sscanf@plt ()
+(gdb) s
+Single stepping until exit from function __isoc99_sscanf@plt,
+which has no line number information.
+0xf7e639b0 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) x/20 $eax
+0xffffcf84:	16	-12188	-403365632	-12188
+0xffffcf94:	-134512640	-134512640	134515336	134530176
+0xffffcfa4:	-12188	-12180	134515238	-12336
+0xffffcfb4:	0	0	-136182217	-134512640
+0xffffcfc4:	-134512640	0	-136182217	1
+(gdb) x/20 $esx
+Value can't be converted to integer.
+(gdb) x/20 $esp
+0xffffcf6c:	134515699	134530176	134521303	-12412
+0xffffcf7c:	-12408	8	16	-12188
+0xffffcf8c:	-403365632	-12188	-134512640	-134512640
+0xffffcf9c:	134515336	134530176	-12188	-12180
+0xffffcfac:	134515238	-12336	0	0
+(gdb) si
+0xf7e639b3 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) s
+Single stepping until exit from function __isoc99_sscanf,
+which has no line number information.
+0x08048bf3 in phase_3 ()
+(gdb) si
+0x08048bf6 in phase_3 ()
+(gdb) x/20 $esp
+0xffffcf80:	8	16	-12188	-403365632
+0xffffcf90:	-12188	-134512640	-134512640	134515336
+0xffffcfa0:	134530176	-12188	-12180	134515238
+0xffffcfb0:	-12336	0	0	-136182217
+0xffffcfc0:	-134512640	-134512640	0	-136182217
+(gdb) x/20 $eax
+0x0:	Cannot access memory at address 0x0
+(gdb) x/ $eax
+0x0:	Cannot access memory at address 0x0
+(gdb) print $eax
+$1 = 0
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 8915] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_2
+Breakpoint 1 at 0x8048b65
+(gdb) b phase_2+10
+Function "phase_2+10" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) 
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+
+1 2 4 8 16 32
+
+Breakpoint 1, 0x08048b65 in phase_2 ()
+(gdb) b 1
+Breakpoint 2 at 0x80489db: file bomb.c, line 1.
+(gdb) s
+Single stepping until exit from function phase_2,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:83
+warning: Source file is more recent than executable.
+83	    phase_defused();
+(gdb) s
+84	    printf("That's number 2.  Keep going!\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+That's number 2.  Keep going!
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:88
+88	    input = read_line();
+(gdb) s
+1 2 3 4 5 6 7 8
+89	    phase_3(input);
+(gdb) si
+0x08048a83	89	    phase_3(input);
+(gdb) si
+0x08048bcc in phase_3 ()
+(gdb) si
+0x08048bcf in phase_3 ()
+(gdb) si
+0x08048bd5 in phase_3 ()
+(gdb) si
+0x08048bd9 in phase_3 ()
+(gdb) si
+0x08048bdb in phase_3 ()
+(gdb) print $eax
+$1 = 0
+(gdb) x/20x esp
+No symbol "esp" in current context.
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000010	0xffffd064	0x99a13900
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048bdf in phase_3 ()
+(gdb) print $eax
+$2 = -12408
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000010	0xffffd064	0x99a13900
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048be0 in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf7c:	0xffffcf88	0x00000008	0x00000010	0xffffd064
+0xffffcf8c:	0x99a13900	0xffffd064	0xf7fb8000	0xf7fb8000
+0xffffcf9c:	0x08048a88	0x0804c480	0xffffd064	0xffffd06c
+0xffffcfac:	0x08048a26	0xffffcfd0	0x00000000	0x00000000
+0xffffcfbc:	0xf7e20637	0xf7fb8000	0xf7fb8000	0x00000000
+(gdb) print $eax
+$3 = -12408
+(gdb) print $eax
+$4 = -12408
+(gdb) si
+0x08048be4 in phase_3 ()
+(gdb) print $eax
+$5 = -12412
+(gdb) x/ $eax
+0xffffcf84:	0x00000010
+(gdb) info $eax
+Undefined info command: "$eax".  Try "help info".
+(gdb) info registers
+eax            0xffffcf84	-12412
+ecx            0x10	16
+edx            0x3	3
+ebx            0xffffd064	-12188
+esp            0xffffcf7c	0xffffcf7c
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048be4	0x8048be4 <phase_3+24>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048be5 in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf78:	0xffffcf84	0xffffcf88	0x00000008	0x00000010
+0xffffcf88:	0xffffd064	0x99a13900	0xffffd064	0xf7fb8000
+0xffffcf98:	0xf7fb8000	0x08048a88	0x0804c480	0xffffd064
+0xffffcfa8:	0xffffd06c	0x08048a26	0xffffcfd0	0x00000000
+0xffffcfb8:	0x00000000	0xf7e20637	0xf7fb8000	0xf7fb8000
+(gdb) si
+0x08048bea in phase_3 ()
+(gdb) si
+0x08048bee in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf70:	0x0804c480	0x0804a1d7	0xffffcf84	0xffffcf88
+0xffffcf80:	0x00000008	0x00000010	0xffffd064	0x99a13900
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+(gdb) si
+0x08048810 in __isoc99_sscanf@plt ()
+(gdb) s
+Single stepping until exit from function __isoc99_sscanf@plt,
+which has no line number information.
+0xf7e639b0 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) si
+0xf7e639b3 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) s
+Single stepping until exit from function __isoc99_sscanf,
+which has no line number information.
+0x08048bf3 in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf70:	0x0804c480	0x0804a1d7	0xffffcf84	0xffffcf88
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x99a13900
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+(gdb) print $eax
+$6 = 2
+(gdb) info register
+eax            0x2	2
+ecx            0xffffcf80	-12416
+edx            0xffffcf88	-12408
+ebx            0xffffd064	-12188
+esp            0xffffcf70	0xffffcf70
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048bf3	0x8048bf3 <phase_3+39>
+eflags         0x286	[ PF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf70:	0x0804c480	0x0804a1d7	0xffffcf84	0xffffcf88
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x99a13900
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 9195] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_2
+Breakpoint 1 at 0x8048b65
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+
+Breakpoint 1, 0x08048b65 in phase_2 ()
+(gdb) s
+Single stepping until exit from function phase_2,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:83
+warning: Source file is more recent than executable.
+83	    phase_defused();
+(gdb) s
+84	    printf("That's number 2.  Keep going!\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+That's number 2.  Keep going!
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:88
+88	    input = read_line();
+(gdb) s
+1 2 3 4 5 6 7 8 9 10 11 12
+89	    phase_3(input);
+(gdb) x/20x $sp
+0xffffcfa0:	0x08049f01	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+0xffffcfd0:	0x00000001	0xffffd064	0xffffd06c	0x00000000
+0xffffcfe0:	0x00000000	0x00000000	0xf7fb8000	0xf7ffdc04
+(gdb) x/20x $esp
+0xffffcfa0:	0x08049f01	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+0xffffcfd0:	0x00000001	0xffffd064	0xffffd06c	0x00000000
+0xffffcfe0:	0x00000000	0x00000000	0xf7fb8000	0xf7ffdc04
+(gdb) info register
+eax            0x804c480	134530176
+ecx            0x1b	27
+edx            0x3	3
+ebx            0xffffd064	-12188
+esp            0xffffcfa0	0xffffcfa0
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048a80	0x8048a80 <main+165>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) s
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 9411) exited with code 010]
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+
+Breakpoint 1, 0x08048b65 in phase_2 ()
+(gdb) s
+Single stepping until exit from function phase_2,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:83
+83	    phase_defused();
+(gdb) s
+84	    printf("That's number 2.  Keep going!\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+That's number 2.  Keep going!
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:88
+88	    input = read_line();
+(gdb) s
+1 2 3 4 5 6 7 8 9 10
+89	    phase_3(input);
+(gdb) si
+0x08048a83	89	    phase_3(input);
+(gdb) si
+0x08048bcc in phase_3 ()
+(gdb) info register
+eax            0x804c480	134530176
+ecx            0x15	21
+edx            0x3	3
+ebx            0xffffd064	-12188
+esp            0xffffcf9c	0xffffcf9c
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048bcc	0x8048bcc <phase_3>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf9c:	0x08048a88	0x0804c480	0xffffd064	0xffffd06c
+0xffffcfac:	0x08048a26	0xffffcfd0	0x00000000	0x00000000
+0xffffcfbc:	0xf7e20637	0xf7fb8000	0xf7fb8000	0x00000000
+0xffffcfcc:	0xf7e20637	0x00000001	0xffffd064	0xffffd06c
+0xffffcfdc:	0x00000000	0x00000000	0x00000000	0xf7fb8000
+(gdb) si
+0x08048bcf in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000010	0xffffd064	0x0804914e
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048bd5 in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000010	0xffffd064	0x0804914e
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048bd9 in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000010	0xffffd064	0x901d7e00
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) info register
+eax            0x901d7e00	-1877115392
+ecx            0x15	21
+edx            0x3	3
+ebx            0xffffd064	-12188
+esp            0xffffcf80	0xffffcf80
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048bd9	0x8048bd9 <phase_3+13>
+eflags         0x282	[ SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048bdb in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000010	0xffffd064	0x901d7e00
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) info register
+eax            0x0	0
+ecx            0x15	21
+edx            0x3	3
+ebx            0xffffd064	-12188
+esp            0xffffcf80	0xffffcf80
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048bdb	0x8048bdb <phase_3+15>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048bdf in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000010	0xffffd064	0x901d7e00
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048be0 in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf7c:	0xffffcf88	0x00000008	0x00000010	0xffffd064
+0xffffcf8c:	0x901d7e00	0xffffd064	0xf7fb8000	0xf7fb8000
+0xffffcf9c:	0x08048a88	0x0804c480	0xffffd064	0xffffd06c
+0xffffcfac:	0x08048a26	0xffffcfd0	0x00000000	0x00000000
+0xffffcfbc:	0xf7e20637	0xf7fb8000	0xf7fb8000	0x00000000
+(gdb) si
+0x08048be4 in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf7c:	0xffffcf88	0x00000008	0x00000010	0xffffd064
+0xffffcf8c:	0x901d7e00	0xffffd064	0xf7fb8000	0xf7fb8000
+0xffffcf9c:	0x08048a88	0x0804c480	0xffffd064	0xffffd06c
+0xffffcfac:	0x08048a26	0xffffcfd0	0x00000000	0x00000000
+0xffffcfbc:	0xf7e20637	0xf7fb8000	0xf7fb8000	0x00000000
+(gdb) info register
+eax            0xffffcf84	-12412
+ecx            0x15	21
+edx            0x3	3
+ebx            0xffffd064	-12188
+esp            0xffffcf7c	0xffffcf7c
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048be4	0x8048be4 <phase_3+24>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048be5 in phase_3 ()
+(gdb) info register
+eax            0xffffcf84	-12412
+ecx            0x15	21
+edx            0x3	3
+ebx            0xffffd064	-12188
+esp            0xffffcf78	0xffffcf78
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048be5	0x8048be5 <phase_3+25>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf78:	0xffffcf84	0xffffcf88	0x00000008	0x00000010
+0xffffcf88:	0xffffd064	0x901d7e00	0xffffd064	0xf7fb8000
+0xffffcf98:	0xf7fb8000	0x08048a88	0x0804c480	0xffffd064
+0xffffcfa8:	0xffffd06c	0x08048a26	0xffffcfd0	0x00000000
+0xffffcfb8:	0x00000000	0xf7e20637	0xf7fb8000	0xf7fb8000
+(gdb) si
+0x08048bea in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf74:	0x0804a1d7	0xffffcf84	0xffffcf88	0x00000008
+0xffffcf84:	0x00000010	0xffffd064	0x901d7e00	0xffffd064
+0xffffcf94:	0xf7fb8000	0xf7fb8000	0x08048a88	0x0804c480
+0xffffcfa4:	0xffffd064	0xffffd06c	0x08048a26	0xffffcfd0
+0xffffcfb4:	0x00000000	0x00000000	0xf7e20637	0xf7fb8000
+(gdb) x/20x $esp
+0xffffcf74:	0x0804a1d7	0xffffcf84	0xffffcf88	0x00000008
+0xffffcf84:	0x00000010	0xffffd064	0x901d7e00	0xffffd064
+0xffffcf94:	0xf7fb8000	0xf7fb8000	0x08048a88	0x0804c480
+0xffffcfa4:	0xffffd064	0xffffd06c	0x08048a26	0xffffcfd0
+0xffffcfb4:	0x00000000	0x00000000	0xf7e20637	0xf7fb8000
+(gdb) si
+0x08048bee in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf70:	0x0804c480	0x0804a1d7	0xffffcf84	0xffffcf88
+0xffffcf80:	0x00000008	0x00000010	0xffffd064	0x901d7e00
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+(gdb) si
+0x08048810 in __isoc99_sscanf@plt ()
+(gdb) s
+Single stepping until exit from function __isoc99_sscanf@plt,
+which has no line number information.
+0xf7e639b0 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) s
+Single stepping until exit from function __isoc99_sscanf,
+which has no line number information.
+0x08048bf3 in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf70:	0x0804c480	0x0804a1d7	0xffffcf84	0xffffcf88
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x901d7e00
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+(gdb) info register
+eax            0x2	2
+ecx            0xffffcf80	-12416
+edx            0xffffcf88	-12408
+ebx            0xffffd064	-12188
+esp            0xffffcf70	0xffffcf70
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048bf3	0x8048bf3 <phase_3+39>
+eflags         0x286	[ PF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048bf6 in phase_3 ()
+(gdb) si
+0x08048bf9 in phase_3 ()
+(gdb) si
+0x08048bfb in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x901d7e00
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048c00 in phase_3 ()
+(gdb) si
+0x08048c06 in phase_3 ()
+(gdb) info registers 
+eax            0x2	2
+ecx            0xffffcf80	-12416
+edx            0xffffcf88	-12408
+ebx            0xffffd064	-12188
+esp            0xffffcf80	0xffffcf80
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048c06	0x8048c06 <phase_3+58>
+eflags         0x297	[ CF PF AF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) info registers eax
+eax            0x2	2
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x901d7e00
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048c0a in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x901d7e00
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) info registers eax
+eax            0x1	1
+(gdb) si
+0x08048c1f in phase_3 ()
+(gdb) si
+0x08048c24 in phase_3 ()
+(gdb) si
+0x08048c29 in phase_3 ()
+(gdb) si
+0x08048c2e in phase_3 ()
+(gdb) si
+0x08048c33 in phase_3 ()
+(gdb) si
+0x08048c38 in phase_3 ()
+(gdb) si
+0x08048c3d in phase_3 ()
+(gdb) si
+0x08048c42 in phase_3 ()
+(gdb) si
+0x08048c47 in phase_3 ()
+(gdb) info re
+record     registers  
+(gdb) info registers eax
+eax            0xfffffd57	-681
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x901d7e00
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048c4c in phase_3 ()
+(gdb) si
+0x08048c4e in phase_3 ()
+(gdb) si
+0x08048c52 in phase_3 ()
+(gdb) si
+0x08048c54 in phase_3 ()
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x901d7e00
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048a88
+0xffffcfa0:	0x0804c480	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) info registers eax
+eax            0xfffffd57	-681
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 9431] will be killed.
+
+Quit anyway? (y or n) 
+Please answer y or n.
+A debugging session is active.
+
+	Inferior 1 [process 9431] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vi U201714854.txt 
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ ./bomb U201714854.txt 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+Halfway there!
+
+1 -681
+
+BOOM!!!
+The bomb has blown up.
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vibomb
+vibomb：未找到命令
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ ./bomb
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+That's number 2.  Keep going!
+1 -681
+Halfway there!
+t
+
+BOOM!!!
+The bomb has blown up.
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_3
+Breakpoint 1 at 0x8048bcc
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+That's number 2.  Keep going!
+1 -681
+
+Breakpoint 1, 0x08048bcc in phase_3 ()
+(gdb) s
+Single stepping until exit from function phase_3,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:90
+warning: Source file is more recent than executable.
+90	    phase_defused();
+(gdb) s
+91	    printf("Halfway there!\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Halfway there!
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:94
+94	    input = read_line();
+(gdb) s
+1 2 3 4 5 6 7
+95	    phase_4(input);
+(gdb) si
+0x08048aa1	95	    phase_4(input);
+(gdb) si
+0x08048cff in phase_4 ()
+(gdb) si
+0x08048d02 in phase_4 ()
+(gdb) si
+0x08048d08 in phase_4 ()
+(gdb) si
+0x08048d0c in phase_4 ()
+(gdb) si
+0x08048d0e in phase_4 ()
+(gdb) si
+0x08048d12 in phase_4 ()
+(gdb) si
+0x08048d13 in phase_4 ()
+(gdb) si
+0x08048d17 in phase_4 ()
+(gdb) si
+0x08048d18 in phase_4 ()
+(gdb) si
+0x08048d1d in phase_4 ()
+(gdb) si
+0x08048d21 in phase_4 ()
+(gdb) si
+0x08048810 in __isoc99_sscanf@plt ()
+(gdb) s
+Single stepping until exit from function __isoc99_sscanf@plt,
+which has no line number information.
+0xf7e639b0 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) s
+Single stepping until exit from function __isoc99_sscanf,
+which has no line number information.
+0x08048d26 in phase_4 ()
+(gdb) si
+0x08048d29 in phase_4 ()
+(gdb) info register eax
+eax            0x2	2
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x546de100
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048aa6
+0xffffcfa0:	0x0804c4d0	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048d2c in phase_4 ()
+(gdb) si
+0x08048d61 in phase_4 ()
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x546de100
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048aa6
+0xffffcfa0:	0x0804c4d0	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048d66 in phase_4 ()
+(gdb) si
+0x08048d33 in phase_4 ()
+(gdb) si
+0x08048d36 in phase_4 ()
+(gdb) x/20x $esp
+0xffffcf7c:	0xffffcf88	0x00000008	0x00000001	0x00000002
+0xffffcf8c:	0x546de100	0xffffd064	0xf7fb8000	0xf7fb8000
+0xffffcf9c:	0x08048aa6	0x0804c4d0	0xffffd064	0xffffd06c
+0xffffcfac:	0x08048a26	0xffffcfd0	0x00000000	0x00000000
+0xffffcfbc:	0xf7e20637	0xf7fb8000	0xf7fb8000	0x00000000
+(gdb) si
+0x08048d38 in phase_4 ()
+(gdb) si
+0x08048d3a in phase_4 ()
+(gdb) x/20x $esp
+0xffffcf74:	0x00000000	0x0000000e	0xffffcf88	0x00000008
+0xffffcf84:	0x00000001	0x00000002	0x546de100	0xffffd064
+0xffffcf94:	0xf7fb8000	0xf7fb8000	0x08048aa6	0x0804c4d0
+0xffffcfa4:	0xffffd064	0xffffd06c	0x08048a26	0xffffcfd0
+0xffffcfb4:	0x00000000	0x00000000	0xf7e20637	0xf7fb8000
+(gdb) si
+0x08048d3e in phase_4 ()
+(gdb) x/20x $esp
+0xffffcf70:	0x00000001	0x00000000	0x0000000e	0xffffcf88
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x546de100
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048aa6
+0xffffcfa0:	0x0804c4d0	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+(gdb) si
+0x08048ca5 in func4 ()
+(gdb) si
+0x08048ca6 in func4 ()
+(gdb) si
+0x08048ca7 in func4 ()
+(gdb) x/20x $esp
+0xffffcf64:	0xffffd064	0xf7fb8000	0x08048d43	0x00000001
+0xffffcf74:	0x00000000	0x0000000e	0xffffcf88	0x00000008
+0xffffcf84:	0x00000001	0x00000002	0x546de100	0xffffd064
+0xffffcf94:	0xf7fb8000	0xf7fb8000	0x08048aa6	0x0804c4d0
+0xffffcfa4:	0xffffd064	0xffffd06c	0x08048a26	0xffffcfd0
+(gdb) x/20x $esp
+0xffffcf64:	0xffffd064	0xf7fb8000	0x08048d43	0x00000001
+0xffffcf74:	0x00000000	0x0000000e	0xffffcf88	0x00000008
+0xffffcf84:	0x00000001	0x00000002	0x546de100	0xffffd064
+0xffffcf94:	0xf7fb8000	0xf7fb8000	0x08048aa6	0x0804c4d0
+0xffffcfa4:	0xffffd064	0xffffd06c	0x08048a26	0xffffcfd0
+(gdb) si
+0x08048caa in func4 ()
+(gdb) x/20x $esp
+0xffffcf60:	0xf7fb8000	0xffffd064	0xf7fb8000	0x08048d43
+0xffffcf70:	0x00000001	0x00000000	0x0000000e	0xffffcf88
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x546de100
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048aa6
+0xffffcfa0:	0x0804c4d0	0xffffd064	0xffffd06c	0x08048a26
+(gdb) si
+0x08048cae in func4 ()
+(gdb) si
+0x08048cb2 in func4 ()
+(gdb) si
+0x08048cb6 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0xe	14
+edx            0x0	0
+ebx            0xffffd064	-12188
+esp            0xffffcf60	0xffffcf60
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048cb6	0x8048cb6 <func4+17>
+eflags         0x286	[ PF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cb8 in func4 ()
+(gdb) si
+0x08048cba in func4 ()
+(gdb) si
+0x08048cbc in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0xe	14
+edx            0x0	0
+ebx            0xe	14
+esp            0xffffcf60	0xffffcf60
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xe	14
+edi            0xf7fb8000	-134512640
+eip            0x8048cbc	0x8048cbc <func4+23>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cbf in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0xe	14
+edx            0x0	0
+ebx            0x0	0
+esp            0xffffcf60	0xffffcf60
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xe	14
+edi            0xf7fb8000	-134512640
+eip            0x8048cbf	0x8048cbf <func4+26>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) info registers 
+eax            0x1	1
+ecx            0xe	14
+edx            0x0	0
+ebx            0x0	0
+esp            0xffffcf60	0xffffcf60
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xe	14
+edi            0xf7fb8000	-134512640
+eip            0x8048cbf	0x8048cbf <func4+26>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cc1 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0xe	14
+edx            0x0	0
+ebx            0xe	14
+esp            0xffffcf60	0xffffcf60
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xe	14
+edi            0xf7fb8000	-134512640
+eip            0x8048cc1	0x8048cc1 <func4+28>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cc3 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0xe	14
+edx            0x0	0
+ebx            0x7	7
+esp            0xffffcf60	0xffffcf60
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xe	14
+edi            0xf7fb8000	-134512640
+eip            0x8048cc3	0x8048cc3 <func4+30>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cc5 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0xe	14
+edx            0x0	0
+ebx            0x7	7
+esp            0xffffcf60	0xffffcf60
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xe	14
+edi            0xf7fb8000	-134512640
+eip            0x8048cc5	0x8048cc5 <func4+32>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cc7 in func4 ()
+(gdb) si
+0x08048cd5 in func4 ()
+(gdb) x/20x $esp
+0xffffcf60:	0xf7fb8000	0xffffd064	0xf7fb8000	0x08048d43
+0xffffcf70:	0x00000001	0x00000000	0x0000000e	0xffffcf88
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x546de100
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048aa6
+0xffffcfa0:	0x0804c4d0	0xffffd064	0xffffd06c	0x08048a26
+(gdb) si
+0x08048cd8 in func4 ()
+(gdb) x/20x $esp
+0xffffcf5c:	0x08049080	0xf7fb8000	0xffffd064	0xf7fb8000
+0xffffcf6c:	0x08048d43	0x00000001	0x00000000	0x0000000e
+0xffffcf7c:	0xffffcf88	0x00000008	0x00000001	0x00000002
+0xffffcf8c:	0x546de100	0xffffd064	0xf7fb8000	0xf7fb8000
+0xffffcf9c:	0x08048aa6	0x0804c4d0	0xffffd064	0xffffd06c
+(gdb) si
+0x08048cdb in func4 ()
+(gdb) si
+0x08048cdc in func4 ()
+(gdb) si
+0x08048cdd in func4 ()
+(gdb) si
+0x08048cde in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x6	6
+edx            0x0	0
+ebx            0x7	7
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xe	14
+edi            0xf7fb8000	-134512640
+eip            0x8048cde	0x8048cde <func4+57>
+eflags         0x296	[ PF AF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048ca5 in func4 ()
+(gdb) si
+0x08048ca6 in func4 ()
+(gdb) si
+0x08048ca7 in func4 ()
+(gdb) si
+0x08048caa in func4 ()
+(gdb) x/20x $esp
+0xffffcf40:	0xf7e639d7	0x00000007	0x0000000e	0x08048ce3
+0xffffcf50:	0x00000001	0x00000000	0x00000006	0x08049080
+0xffffcf60:	0xf7fb8000	0xffffd064	0xf7fb8000	0x08048d43
+0xffffcf70:	0x00000001	0x00000000	0x0000000e	0xffffcf88
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x546de100
+(gdb) x/40x $esp
+0xffffcf40:	0xf7e639d7	0x00000007	0x0000000e	0x08048ce3
+0xffffcf50:	0x00000001	0x00000000	0x00000006	0x08049080
+0xffffcf60:	0xf7fb8000	0xffffd064	0xf7fb8000	0x08048d43
+0xffffcf70:	0x00000001	0x00000000	0x0000000e	0xffffcf88
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x546de100
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048aa6
+0xffffcfa0:	0x0804c4d0	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+0xffffcfd0:	0x00000001	0xffffd064	0xffffd06c	0x00000000
+(gdb) si
+0x08048cae in func4 ()
+(gdb) si
+0x08048cb2 in func4 ()
+(gdb) si
+0x08048cb6 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x6	6
+edx            0x0	0
+ebx            0x7	7
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xe	14
+edi            0xf7fb8000	-134512640
+eip            0x8048cb6	0x8048cb6 <func4+17>
+eflags         0x282	[ SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cb8 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x6	6
+edx            0x0	0
+ebx            0x7	7
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048cb8	0x8048cb8 <func4+19>
+eflags         0x282	[ SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cba in func4 ()
+(gdb) si
+0x08048cbc in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x6	6
+edx            0x0	0
+ebx            0x6	6
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048cbc	0x8048cbc <func4+23>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cbf in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x6	6
+edx            0x0	0
+ebx            0x0	0
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048cbf	0x8048cbf <func4+26>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cc1 in func4 ()
+(gdb) si
+0x08048cc3 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x6	6
+edx            0x0	0
+ebx            0x3	3
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048cc3	0x8048cc3 <func4+30>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cc5 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x6	6
+edx            0x0	0
+ebx            0x3	3
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048cc5	0x8048cc5 <func4+32>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cc7 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x6	6
+edx            0x0	0
+ebx            0x3	3
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048cc7	0x8048cc7 <func4+34>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cd5 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x6	6
+edx            0x0	0
+ebx            0x3	3
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048cd5	0x8048cd5 <func4+48>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cd8 in func4 ()
+(gdb) si
+0x08048cdb in func4 ()
+(gdb) si
+0x08048cdc in func4 ()
+(gdb) si
+0x08048cdd in func4 ()
+(gdb) si
+0x08048cde in func4 ()
+(gdb) si
+0x08048ca5 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x2	2
+edx            0x0	0
+ebx            0x3	3
+esp            0xffffcf2c	0xffffcf2c
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048ca5	0x8048ca5 <func4>
+eflags         0x296	[ PF AF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/40x esp
+No symbol "esp" in current context.
+(gdb) x/40x $esp
+0xffffcf2c:	0x08048ce3	0x00000001	0x00000000	0x00000002
+0xffffcf3c:	0xf7e721c2	0xf7e639d7	0x00000007	0x0000000e
+0xffffcf4c:	0x08048ce3	0x00000001	0x00000000	0x00000006
+0xffffcf5c:	0x08049080	0xf7fb8000	0xffffd064	0xf7fb8000
+0xffffcf6c:	0x08048d43	0x00000001	0x00000000	0x0000000e
+0xffffcf7c:	0xffffcf88	0x00000008	0x00000001	0x00000002
+0xffffcf8c:	0x546de100	0xffffd064	0xf7fb8000	0xf7fb8000
+0xffffcf9c:	0x08048aa6	0x0804c4d0	0xffffd064	0xffffd06c
+0xffffcfac:	0x08048a26	0xffffcfd0	0x00000000	0x00000000
+0xffffcfbc:	0xf7e20637	0xf7fb8000	0xf7fb8000	0x00000000
+(gdb) si
+0x08048ca6 in func4 ()
+(gdb) si
+0x08048ca7 in func4 ()
+(gdb) si
+0x08048caa in func4 ()
+(gdb) si
+0x08048cae in func4 ()
+(gdb) si
+0x08048cb2 in func4 ()
+(gdb) si
+0x08048cb6 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x2	2
+edx            0x0	0
+ebx            0x3	3
+esp            0xffffcf20	0xffffcf20
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048cb6	0x8048cb6 <func4+17>
+eflags         0x282	[ SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cb8 in func4 ()
+(gdb) si
+0x08048cba in func4 ()
+(gdb) si
+0x08048cbc in func4 ()
+(gdb) si
+0x08048cbf in func4 ()
+(gdb) si
+0x08048cc1 in func4 ()
+(gdb) 
+0x08048cc3 in func4 ()
+(gdb) 
+0x08048cc5 in func4 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x2	2
+edx            0x0	0
+ebx            0x1	1
+esp            0xffffcf20	0xffffcf20
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x2	2
+edi            0xf7fb8000	-134512640
+eip            0x8048cc5	0x8048cc5 <func4+32>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) 
+eax            0x1	1
+ecx            0x2	2
+edx            0x0	0
+ebx            0x1	1
+esp            0xffffcf20	0xffffcf20
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x2	2
+edi            0xf7fb8000	-134512640
+eip            0x8048cc5	0x8048cc5 <func4+32>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cc7 in func4 ()
+(gdb) 
+0x08048cc9 in func4 ()
+(gdb) 
+0x08048ccb in func4 ()
+(gdb) 
+0x08048ccd in func4 ()
+(gdb) 
+0x08048ccf in func4 ()
+(gdb) 
+0x08048cd2 in func4 ()
+(gdb) 
+0x08048cd3 in func4 ()
+(gdb) 
+0x08048cd4 in func4 ()
+(gdb) x/40x $esp
+0xffffcf2c:	0x08048ce3	0x00000001	0x00000000	0x00000002
+0xffffcf3c:	0xf7e721c2	0xf7e639d7	0x00000007	0x0000000e
+0xffffcf4c:	0x08048ce3	0x00000001	0x00000000	0x00000006
+0xffffcf5c:	0x08049080	0xf7fb8000	0xffffd064	0xf7fb8000
+0xffffcf6c:	0x08048d43	0x00000001	0x00000000	0x0000000e
+0xffffcf7c:	0xffffcf88	0x00000008	0x00000001	0x00000002
+0xffffcf8c:	0x546de100	0xffffd064	0xf7fb8000	0xf7fb8000
+0xffffcf9c:	0x08048aa6	0x0804c4d0	0xffffd064	0xffffd06c
+0xffffcfac:	0x08048a26	0xffffcfd0	0x00000000	0x00000000
+0xffffcfbc:	0xf7e20637	0xf7fb8000	0xf7fb8000	0x00000000
+(gdb) si
+0x08048ce3 in func4 ()
+(gdb) 
+0x08048ce6 in func4 ()
+(gdb) info register
+eax            0x1	1
+ecx            0x2	2
+edx            0x0	0
+ebx            0x3	3
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048ce6	0x8048ce6 <func4+65>
+eflags         0x282	[ SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048ce8 in func4 ()
+(gdb) info register
+eax            0x1	1
+ecx            0x2	2
+edx            0x0	0
+ebx            0x4	4
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048ce8	0x8048ce8 <func4+67>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048ccd in func4 ()
+(gdb) si
+0x08048ccf in func4 ()
+(gdb) info register
+eax            0x4	4
+ecx            0x2	2
+edx            0x0	0
+ebx            0x4	4
+esp            0xffffcf40	0xffffcf40
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048ccf	0x8048ccf <func4+42>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048cd2 in func4 ()
+(gdb) si
+0x08048cd3 in func4 ()
+(gdb) si
+0x08048cd4 in func4 ()
+(gdb) si
+0x08048ce3 in func4 ()
+(gdb) info register
+eax            0x4	4
+ecx            0x2	2
+edx            0x0	0
+ebx            0x7	7
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xe	14
+edi            0xf7fb8000	-134512640
+eip            0x8048ce3	0x8048ce3 <func4+62>
+eflags         0x286	[ PF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/40x $esp
+0xffffcf50:	0x00000001	0x00000000	0x00000006	0x08049080
+0xffffcf60:	0xf7fb8000	0xffffd064	0xf7fb8000	0x08048d43
+0xffffcf70:	0x00000001	0x00000000	0x0000000e	0xffffcf88
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x546de100
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048aa6
+0xffffcfa0:	0x0804c4d0	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+0xffffcfd0:	0x00000001	0xffffd064	0xffffd06c	0x00000000
+0xffffcfe0:	0x00000000	0x00000000	0xf7fb8000	0xf7ffdc04
+(gdb) si
+0x08048ce6 in func4 ()
+(gdb) si
+0x08048ce8 in func4 ()
+(gdb) info register
+eax            0x4	4
+ecx            0x2	2
+edx            0x0	0
+ebx            0xb	11
+esp            0xffffcf60	0xffffcf60
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xe	14
+edi            0xf7fb8000	-134512640
+eip            0x8048ce8	0x8048ce8 <func4+67>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048ccd in func4 ()
+(gdb) 
+0x08048ccf in func4 ()
+(gdb) s
+Single stepping until exit from function func4,
+which has no line number information.
+0x08048d43 in phase_4 ()
+(gdb) si
+0x08048d46 in phase_4 ()
+(gdb) info register
+eax            0xb	11
+ecx            0x2	2
+edx            0x0	0
+ebx            0xffffd064	-12188
+esp            0xffffcf80	0xffffcf80
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048d46	0x8048d46 <phase_4+71>
+eflags         0x282	[ SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf80:	0x00000008	0x00000001	0x00000002	0x546de100
+0xffffcf90:	0xffffd064	0xf7fb8000	0xf7fb8000	0x08048aa6
+0xffffcfa0:	0x0804c4d0	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+(gdb) si
+0x08048d49 in phase_4 ()
+(gdb) si
+0x08048d6a in phase_4 ()
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 9645] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vibomb
+vibomb：未找到命令
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vi U201714854.txt 
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ ./bomb U201714854.txt 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+Halfway there!
+So you got that one.  Try this one.
+
+te
+
+BOOM!!!
+The bomb has blown up.
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vi U201714854.txt 
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ ./bomb U201714854.txt 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+Halfway there!
+
+BOOM!!!
+The bomb has blown up.
+gary@gary:~/文档/syste
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_4
+Breakpoint 1 at 0x8048cff
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+That's number 2.  Keep going!
+1 -681
+Halfway there!
+1 11
+
+Breakpoint 1, 0x08048cff in phase_4 ()
+(gdb) s
+Single stepping until exit from function phase_4,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:96
+warning: Source file is more recent than executable.
+96	    phase_defused();
+(gdb) s
+97	    printf("So you got that one.  Try this one.\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+So you got that one.  Try this one.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:100
+100	    input = read_line();
+(gdb) s
+1 2 3 4 5 6 7
+101	    phase_5(input);
+(gdb) si
+0x08048abf	101	    phase_5(input);
+(gdb) si
+0x08048d78 in phase_5 ()
+(gdb) 
+0x08048d79 in phase_5 ()
+(gdb) si
+0x08048d7c in phase_5 ()
+(gdb) 
+0x08048d80 in phase_5 ()
+(gdb) 
+0x08048d81 in phase_5 ()
+(gdb) 
+0x08048fd2 in string_length ()
+(gdb) s
+Single stepping until exit from function string_length,
+which has no line number information.
+0x08048d86 in phase_5 ()
+(gdb) si
+0x08048d89 in phase_5 ()
+(gdb) x/20x $esp
+0xffffcf90:	0xffffd064	0xf7fb8000	0xffffd064	0x08048ac4
+0xffffcfa0:	0x0804c520	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+0xffffcfd0:	0x00000001	0xffffd064	0xffffd06c	0x00000000
+(gdb) si
+0x08048d8c in phase_5 ()
+(gdb) si
+0x08048d8e in phase_5 ()
+(gdb) si
+0x080490e6 in explode_bomb ()
+(gdb) s
+Single stepping until exit from function explode_bomb,
+which has no line number information.
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 2693) exited with code 010]
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+That's number 2.  Keep going!
+1 -681
+Halfway there!
+1 11
+
+Breakpoint 1, 0x08048cff in phase_4 ()
+(gdb) s
+Single stepping until exit from function phase_4,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:96
+96	    phase_defused();
+(gdb) s
+97	    printf("So you got that one.  Try this one.\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+So you got that one.  Try this one.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:100
+100	    input = read_line();
+(gdb) s
+5 6 7 8 9 10
+101	    phase_5(input);
+(gdb) si
+0x08048abf	101	    phase_5(input);
+(gdb) 
+0x08048d78 in phase_5 ()
+(gdb) 
+0x08048d79 in phase_5 ()
+(gdb) 
+0x08048d7c in phase_5 ()
+(gdb) 
+0x08048d80 in phase_5 ()
+(gdb) 
+0x08048d81 in phase_5 ()
+(gdb) 
+0x08048fd2 in string_length ()
+(gdb) 
+0x08048fd6 in string_length ()
+(gdb) s
+Single stepping until exit from function string_length,
+which has no line number information.
+0x08048d86 in phase_5 ()
+(gdb) ir eax
+Undefined command: "ir".  Try "help".
+(gdb) info registers eax
+eax            0xc	12
+(gdb) si
+0x08048d89 in phase_5 ()
+(gdb) s
+Single stepping until exit from function phase_5,
+which has no line number information.
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 2767) exited with code 010]
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+That's number 2.  Keep going!
+1 -681 
+Halfway there!
+1 11
+
+Breakpoint 1, 0x08048cff in phase_4 ()
+(gdb) s
+Single stepping until exit from function phase_4,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:96
+96	    phase_defused();
+(gdb) s
+97	    printf("So you got that one.  Try this one.\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+So you got that one.  Try this one.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:100
+100	    input = read_line();
+(gdb) s
+111 222 333
+101	    phase_5(input);
+(gdb) si
+0x08048abf	101	    phase_5(input);
+(gdb) si
+0x08048d78 in phase_5 ()
+(gdb) si
+0x08048d79 in phase_5 ()
+(gdb) si
+0x08048d7c in phase_5 ()
+(gdb) si
+0x08048d80 in phase_5 ()
+(gdb) si
+0x08048d81 in phase_5 ()
+(gdb) si
+0x08048fd2 in string_length ()
+(gdb) s
+Single stepping until exit from function string_length,
+which has no line number information.
+0x08048d86 in phase_5 ()
+(gdb) info registers eax
+eax            0xb	11
+(gdb) s
+Single stepping until exit from function phase_5,
+which has no line number information.
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 2780) exited with code 010]
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+That's number 2.  Keep going!
+1 -681
+Halfway there!
+1 11
+
+Breakpoint 1, 0x08048cff in phase_4 ()
+(gdb) s
+Single stepping until exit from function phase_4,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:96
+96	    phase_defused();
+(gdb) s
+97	    printf("So you got that one.  Try this one.\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+So you got that one.  Try this one.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:100
+100	    input = read_line();
+(gdb) s
+ABCDEFG
+101	    phase_5(input);
+(gdb) si
+0x08048abf	101	    phase_5(input);
+(gdb) si
+0x08048d78 in phase_5 ()
+(gdb) si
+0x08048d79 in phase_5 ()
+(gdb) 
+0x08048d7c in phase_5 ()
+(gdb) 
+0x08048d80 in phase_5 ()
+(gdb) 
+0x08048d81 in phase_5 ()
+(gdb) 
+0x08048fd2 in string_length ()
+(gdb) s
+Single stepping until exit from function string_length,
+which has no line number information.
+0x08048d86 in phase_5 ()
+(gdb) info registers eax
+eax            0x7	7
+(gdb) s
+Single stepping until exit from function phase_5,
+which has no line number information.
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 2789) exited with code 010]
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+That's number 2.  Keep going!
+1 -681
+Halfway there!
+1 11
+
+Breakpoint 1, 0x08048cff in phase_4 ()
+(gdb) s
+Single stepping until exit from function phase_4,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:96
+96	    phase_defused();
+(gdb) s
+97	    printf("So you got that one.  Try this one.\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+So you got that one.  Try this one.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:100
+100	    input = read_line();
+(gdb) s
+ABCDE
+101	    phase_5(input);
+(gdb) si
+0x08048abf	101	    phase_5(input);
+(gdb) 
+0x08048d78 in phase_5 ()
+(gdb) 
+0x08048d79 in phase_5 ()
+(gdb) 
+0x08048d7c in phase_5 ()
+(gdb) 
+0x08048d80 in phase_5 ()
+(gdb) 
+0x08048d81 in phase_5 ()
+(gdb) 
+0x08048fd2 in string_length ()
+(gdb) 
+0x08048fd6 in string_length ()
+(gdb) s
+Single stepping until exit from function string_length,
+which has no line number information.
+0x08048d86 in phase_5 ()
+(gdb) info registers eax
+eax            0x5	5
+(gdb) s
+Single stepping until exit from function phase_5,
+which has no line number information.
+
+BOOM!!!
+The bomb has blown up.
+[Inferior 1 (process 2801) exited with code 010]
+(gdb) 
+The program is not being run.
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+That's number 2.  Keep going!
+1 -681
+Halfway there!
+1 11
+
+Breakpoint 1, 0x08048cff in phase_4 ()
+(gdb) s
+Single stepping until exit from function phase_4,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:96
+96	    phase_defused();
+(gdb) s
+97	    printf("So you got that one.  Try this one.\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+So you got that one.  Try this one.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:100
+100	    input = read_line();
+(gdb) s
+ABCDEF
+101	    phase_5(input);
+(gdb) si
+0x08048abf	101	    phase_5(input);
+(gdb) 
+0x08048d78 in phase_5 ()
+(gdb) 
+0x08048d79 in phase_5 ()
+(gdb) 
+0x08048d7c in phase_5 ()
+(gdb) 
+0x08048d80 in phase_5 ()
+(gdb) 
+0x08048d81 in phase_5 ()
+(gdb) 
+0x08048fd2 in string_length ()
+(gdb) s
+Single stepping until exit from function string_length,
+which has no line number information.
+0x08048d86 in phase_5 ()
+(gdb) info registers eax
+eax            0x6	6
+(gdb) si
+0x08048d89 in phase_5 ()
+(gdb) 
+0x08048d8c in phase_5 ()
+(gdb) 
+0x08048d93 in phase_5 ()
+(gdb) info register
+eax            0x6	6
+ecx            0x7	7
+edx            0x804c520	134530336
+ebx            0x804c520	134530336
+esp            0xffffcf90	0xffffcf90
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048d93	0x8048d93 <phase_5+27>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf90:	0xffffd064	0xf7fb8000	0xffffd064	0x08048ac4
+0xffffcfa0:	0x0804c520	0xffffd064	0xffffd06c	0x08048a26
+0xffffcfb0:	0xffffcfd0	0x00000000	0x00000000	0xf7e20637
+0xffffcfc0:	0xf7fb8000	0xf7fb8000	0x00000000	0xf7e20637
+0xffffcfd0:	0x00000001	0xffffd064	0xffffd06c	0x00000000
+(gdb) si
+0x08048d95 in phase_5 ()
+(gdb) info register
+eax            0x804c520	134530336
+ecx            0x7	7
+edx            0x804c520	134530336
+ebx            0x804c520	134530336
+esp            0xffffcf90	0xffffcf90
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048d95	0x8048d95 <phase_5+29>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048d98 in phase_5 ()
+(gdb) si
+0x08048d9d in phase_5 ()
+(gdb) info register
+eax            0x804c520	134530336
+ecx            0x0	0
+edx            0x804c520	134530336
+ebx            0x804c526	134530342
+esp            0xffffcf90	0xffffcf90
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048d9d	0x8048d9d <phase_5+37>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048da0 in phase_5 ()
+(gdb) info register
+eax            0x804c520	134530336
+ecx            0x0	0
+edx            0x41	65
+ebx            0x804c526	134530342
+esp            0xffffcf90	0xffffcf90
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048da0	0x8048da0 <phase_5+40>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048da3 in phase_5 ()
+(gdb) info register
+eax            0x804c520	134530336
+ecx            0x0	0
+edx            0x1	1
+ebx            0x804c526	134530342
+esp            0xffffcf90	0xffffcf90
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048da3	0x8048da3 <phase_5+43>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048daa in phase_5 ()
+(gdb) info register
+eax            0x804c520	134530336
+ecx            0xa	10
+edx            0x1	1
+ebx            0x804c526	134530342
+esp            0xffffcf90	0xffffcf90
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048daa	0x8048daa <phase_5+50>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048dad in phase_5 ()
+(gdb) si
+0x08048daf in phase_5 ()
+(gdb) si
+0x08048d9d in phase_5 ()
+(gdb) info register
+eax            0x804c521	134530337
+ecx            0xa	10
+edx            0x1	1
+ebx            0x804c526	134530342
+esp            0xffffcf90	0xffffcf90
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048d9d	0x8048d9d <phase_5+37>
+eflags         0x293	[ CF AF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048da0 in phase_5 ()
+(gdb) info register
+eax            0x804c521	134530337
+ecx            0xa	10
+edx            0x42	66
+ebx            0x804c526	134530342
+esp            0xffffcf90	0xffffcf90
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048da0	0x8048da0 <phase_5+40>
+eflags         0x293	[ CF AF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048da3 in phase_5 ()
+(gdb) info register
+eax            0x804c521	134530337
+ecx            0xa	10
+edx            0x2	2
+ebx            0x804c526	134530342
+esp            0xffffcf90	0xffffcf90
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048da3	0x8048da3 <phase_5+43>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048daa in phase_5 ()
+(gdb) info register
+eax            0x804c521	134530337
+ecx            0x10	16
+edx            0x2	2
+ebx            0x804c526	134530342
+esp            0xffffcf90	0xffffcf90
+ebp            0xffffcfb8	0xffffcfb8
+esi            0xf7fb8000	-134512640
+edi            0xf7fb8000	-134512640
+eip            0x8048daa	0x8048daa <phase_5+50>
+eflags         0x212	[ AF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/40x 0x804a060
+0x804a060 <array.3048>:	0x00000002	0x0000000a	0x00000006	0x00000001
+0x804a070 <array.3048+16>:	0x0000000c	0x00000010	0x00000009	0x00000003
+0x804a080 <array.3048+32>:	0x00000004	0x00000007	0x0000000e	0x00000005
+0x804a090 <array.3048+48>:	0x0000000b	0x00000008	0x0000000f	0x0000000d
+0x804a0a0:	0x21776f57	0x756f5920	0x20657627	0x75666564
+0x804a0b0:	0x20646573	0x20656874	0x72636573	0x73207465
+0x804a0c0:	0x65676174	0x00000021	0x79206f53	0x7420756f
+0x804a0d0:	0x6b6e6968	0x756f7920	0x6e616320	0x6f747320
+0x804a0e0:	0x68742070	0x6f622065	0x7720626d	0x20687469
+0x804a0f0:	0x6c727463	0x202c632d	0x79206f64	0x003f756f
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 2817] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vi U201714854.txt 
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ ./bomb U201714854.txt 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+Halfway there!
+So you got that one.  Try this one.
+Good work!  On to the next...
+
+
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_5
+Breakpoint 1 at 0x8048d78
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+That's number 2.  Keep going!
+1 -681
+Halfway there!
+1 11
+So you got that one.  Try this one.
+AABDDD
+
+Breakpoint 1, 0x08048d78 in phase_5 ()
+(gdb) s
+Single stepping until exit from function phase_5,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:102
+warning: Source file is more recent than executable.
+102	    phase_defused();
+(gdb) s
+103	    printf("Good work!  On to the next...\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Good work!  On to the next...
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:107
+107	    input = read_line();
+(gdb) s
+2 3 4 5 6 7
+108	    phase_6(input);
+(gdb) si
+0x08048add	108	    phase_6(input);
+(gdb) 
+0x08048dc0 in phase_6 ()
+(gdb) 
+0x08048dc1 in phase_6 ()
+(gdb) 
+0x08048dc2 in phase_6 ()
+(gdb) 
+0x08048dc5 in phase_6 ()
+(gdb) 
+0x08048dcb in phase_6 ()
+(gdb) 
+0x08048dcf in phase_6 ()
+(gdb) 
+0x08048dd1 in phase_6 ()
+(gdb) 
+0x08048dd5 in phase_6 ()
+(gdb) 
+0x08048dd6 in phase_6 ()
+(gdb) 
+0x08048dda in phase_6 ()
+(gdb) 
+0x0804910b in read_six_numbers ()
+(gdb) s
+Single stepping until exit from function read_six_numbers,
+which has no line number information.
+0x08048ddf in phase_6 ()
+(gdb) x/20x $esp
+0xffffcf40:	0x0804c570	0xffffcf5c	0xf7e07700	0x00000000
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000002
+0xffffcf60:	0x00000003	0x00000004	0x00000005	0x00000006
+0xffffcf70:	0x00000007	0x00000050	0xf7fb85a0	0xf7fb8d60
+0xffffcf80:	0x0804c520	0x00000001	0xffffd064	0x4fe4bd00
+(gdb) si
+0x08048de2 in phase_6 ()
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000002
+0xffffcf60:	0x00000003	0x00000004	0x00000005	0x00000006
+0xffffcf70:	0x00000007	0x00000050	0xf7fb85a0	0xf7fb8d60
+0xffffcf80:	0x0804c520	0x00000001	0xffffd064	0x4fe4bd00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) si
+0x08048de7 in phase_6 ()
+(gdb) info register
+eax            0x6	6
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0xffffd064	-12188
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x0	0
+edi            0xf7fb8000	-134512640
+eip            0x8048de7	0x8048de7 <phase_6+39>
+eflags         0x286	[ PF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) info register eax
+eax            0x2	2
+(gdb) si
+0x08048e0c in phase_6 ()
+(gdb) si
+0x08048e0f in phase_6 ()
+(gdb) info register eax
+eax            0x1	1
+(gdb) info register esi
+esi            0x0	0
+(gdb) si
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) info register eax
+eax            0x3	3
+(gdb) si
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) info registers esi
+esi            0x1	1
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000002
+0xffffcf60:	0x00000003	0x00000004	0x00000005	0x00000006
+0xffffcf70:	0x00000007	0x00000050	0xf7fb85a0	0xf7fb8d60
+0xffffcf80:	0x0804c520	0x00000001	0xffffd064	0x4fe4bd00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) info registers eax
+eax            0x3	3
+(gdb) info registers 
+eax            0x3	3
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x1	1
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x1	1
+edi            0xf7fb8000	-134512640
+eip            0x8048dfd	0x8048dfd <phase_6+61>
+eflags         0x297	[ CF PF AF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e00 in phase_6 ()
+(gdb) info registers ebx
+ebx            0x2	2
+(gdb) si
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) info registers eax
+eax            0x3	3
+(gdb) si
+0x08048df7 in phase_6 ()
+(gdb) info registers eax
+eax            0x4	4
+(gdb) info registers eax
+eax            0x4	4
+(gdb) si
+0x08048dfb in phase_6 ()
+(gdb) si
+0x08048dfd in phase_6 ()
+(gdb) si
+0x08048e00 in phase_6 ()
+(gdb) si
+0x08048e03 in phase_6 ()
+(gdb) si
+0x08048df3 in phase_6 ()
+(gdb) si
+0x08048df7 in phase_6 ()
+(gdb) si
+0x08048dfb in phase_6 ()
+(gdb) si
+0x08048dfd in phase_6 ()
+(gdb) si
+0x08048e00 in phase_6 ()
+(gdb) info registers ebx
+ebx            0x4	4
+(gdb) si
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) info registers eax
+eax            0x7	7
+(gdb) si
+0x08048e05 in phase_6 ()
+(gdb) info registers 
+eax            0x7	7
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x1	1
+edi            0xf7fb8000	-134512640
+eip            0x8048e05	0x8048e05 <phase_6+69>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000002
+0xffffcf60:	0x00000003	0x00000004	0x00000005	0x00000006
+0xffffcf70:	0x00000007	0x00000050	0xf7fb85a0	0xf7fb8d60
+0xffffcf80:	0x0804c520	0x00000001	0xffffd064	0x4fe4bd00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) si
+0x08048e09 in phase_6 ()
+(gdb) info register eax
+eax            0x3	3
+(gdb) si
+0x08048e0c in phase_6 ()
+(gdb) 
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) info registers 
+eax            0x2	2
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x2	2
+edi            0xf7fb8000	-134512640
+eip            0x8048dec	0x8048dec <phase_6+44>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) info registers eax
+eax            0x4	4
+(gdb) 
+eax            0x4	4
+(gdb) si
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) info registers eax
+eax            0x3	3
+(gdb) info registers 
+eax            0x3	3
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x2	2
+edi            0xf7fb8000	-134512640
+eip            0x8048e0c	0x8048e0c <phase_6+76>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 2233] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ gdb bomb
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bomb...done.
+(gdb) b phase_5
+Breakpoint 1 at 0x8048d78
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32 
+That's number 2.  Keep going!
+1 -681
+Halfway there!
+1 11
+So you got that one.  Try this one.
+AABDDD
+
+Breakpoint 1, 0x08048d78 in phase_5 ()
+(gdb) s
+Single stepping until exit from function phase_5,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:102
+warning: Source file is more recent than executable.
+102	    phase_defused();
+(gdb) s
+103	    printf("Good work!  On to the next...\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>)
+    at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Good work!  On to the next...
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:107
+107	    input = read_line();
+(gdb) s
+1 2 3 4 5 6
+108	    phase_6(input);
+(gdb) si
+0x08048add	108	    phase_6(input);
+(gdb) 
+0x08048dc0 in phase_6 ()
+(gdb) 
+0x08048dc1 in phase_6 ()
+(gdb) 
+0x08048dc2 in phase_6 ()
+(gdb) 
+0x08048dc5 in phase_6 ()
+(gdb) 
+0x08048dcb in phase_6 ()
+(gdb) 
+0x08048dcf in phase_6 ()
+(gdb) 
+0x08048dd1 in phase_6 ()
+(gdb) 
+0x08048dd5 in phase_6 ()
+(gdb) 
+0x08048dd6 in phase_6 ()
+(gdb) 
+0x08048dda in phase_6 ()
+(gdb) 
+0x0804910b in read_six_numbers ()
+(gdb) 
+0x0804910e in read_six_numbers ()
+(gdb) s
+Single stepping until exit from function read_six_numbers,
+which has no line number information.
+0x08048ddf in phase_6 ()
+(gdb) si
+0x08048de2 in phase_6 ()
+(gdb) 
+0x08048de7 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) 
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) info registers 
+eax            0x6	6
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x1	1
+edi            0xf7fb8000	-134512640
+eip            0x8048e03	0x8048e03 <phase_6+67>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x1	1
+edi            0xf7fb8000	-134512640
+eip            0x8048e0c	0x8048e0c <phase_6+76>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) info rege
+Undefined info command: "rege".  Try "help info".
+(gdb) info registers 
+eax            0x3	3
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x2	2
+edi            0xf7fb8000	-134512640
+eip            0x8048e09	0x8048e09 <phase_6+73>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e0c in phase_6 ()
+(gdb) 
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) info registers 
+eax            0x3	3
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x3	3
+edi            0xf7fb8000	-134512640
+eip            0x8048e0c	0x8048e0c <phase_6+76>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) info registers 
+eax            0x4	4
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x4	4
+edi            0xf7fb8000	-134512640
+eip            0x8048e0c	0x8048e0c <phase_6+76>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) info registers 
+eax            0x5	5
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x5	5
+edi            0xf7fb8000	-134512640
+eip            0x8048e0c	0x8048e0c <phase_6+76>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048e1f in phase_6 ()
+(gdb) info registers 
+eax            0x5	5
+ecx            0xffffcf30	-12496
+edx            0xffffcf70	-12432
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x6	6
+edi            0xf7fb8000	-134512640
+eip            0x8048e1f	0x8048e1f <phase_6+95>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x1	1
+edx            0x804c13c	134529340
+ebx            0x0	0
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x0	0
+edi            0xf7fb8000	-134512640
+eip            0x8048e34	0x8048e34 <phase_6+116>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000001
+0xffffcf60:	0x00000002	0x00000003	0x00000004	0x00000005
+0xffffcf70:	0x00000006	0x00000050	0xf7fb85a0	0xf7fb8d60
+0xffffcf80:	0x0804c520	0x00000001	0xffffd064	0xa458fc00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) x/20x 0x804c13c
+0x804c13c <node1>:	0x00000072	0x00000001	0x0804c148	0x00000157
+0x804c14c <node2+4>:	0x00000002	0x0804c154	0x00000399	0x00000003
+0x804c15c <node3+8>:	0x0804c160	0x000000a6	0x00000004	0x0804c16c
+0x804c16c <node5>:	0x00000233	0x00000005	0x0804c178	0x000003d9
+0x804c17c <node6+4>:	0x00000006	0x00000000	0x0c05eca6	0x00000000
+(gdb) si
+0x08048e37 in phase_6 ()
+(gdb) si
+0x08048e43 in phase_6 ()
+(gdb) si
+0x08048e47 in phase_6 ()
+(gdb) info registers esi
+esi            0x0	0
+(gdb) info registers edx
+edx            0x804c13c	134529340
+(gdb) ai
+Undefined command: "ai".  Try "help".
+(gdb) si
+0x08048e4a in phase_6 ()
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000001
+0xffffcf60:	0x00000002	0x00000003	0x00000004	0x00000005
+0xffffcf70:	0x00000006	0x0804c13c	0xf7fb85a0	0xf7fb8d60
+0xffffcf80:	0x0804c520	0x00000001	0xffffd064	0xa458fc00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) info registers 
+eax            0x1	1
+ecx            0x1	1
+edx            0x804c13c	134529340
+ebx            0x1	1
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x0	0
+edi            0xf7fb8000	-134512640
+eip            0x8048e4a	0x8048e4a <phase_6+138>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x2	2
+edx            0x804c13c	134529340
+ebx            0x1	1
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x1	1
+edi            0xf7fb8000	-134512640
+eip            0x8048e34	0x8048e34 <phase_6+116>
+eflags         0x293	[ CF AF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) info registers 
+eax            0x1	1
+ecx            0x2	2
+edx            0x804c148	134529352
+ebx            0x1	1
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x1	1
+edi            0xf7fb8000	-134512640
+eip            0x8048e3c	0x8048e3c <phase_6+124>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000001
+0xffffcf60:	0x00000002	0x00000003	0x00000004	0x00000005
+0xffffcf70:	0x00000006	0x0804c13c	0xf7fb85a0	0xf7fb8d60
+0xffffcf80:	0x0804c520	0x00000001	0xffffd064	0xa458fc00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) si
+0x08048e47 in phase_6 ()
+(gdb) x/20x 0x804c13c
+0x804c13c <node1>:	0x00000072	0x00000001	0x0804c148	0x00000157
+0x804c14c <node2+4>:	0x00000002	0x0804c154	0x00000399	0x00000003
+0x804c15c <node3+8>:	0x0804c160	0x000000a6	0x00000004	0x0804c16c
+0x804c16c <node5>:	0x00000233	0x00000005	0x0804c178	0x000003d9
+0x804c17c <node6+4>:	0x00000006	0x00000000	0x0c05eca6	0x00000000
+(gdb) si
+0x08048e4a in phase_6 ()
+(gdb) si
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) info registers 
+eax            0x2	2
+ecx            0x2	2
+edx            0x804c148	134529352
+ebx            0x2	2
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x1	1
+edi            0xf7fb8000	-134512640
+eip            0x8048e24	0x8048e24 <phase_6+100>
+eflags         0x297	[ CF PF AF SF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e26 in phase_6 ()
+(gdb) x/20x esp
+No symbol "esp" in current context.
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000001
+0xffffcf60:	0x00000002	0x00000003	0x00000004	0x00000005
+0xffffcf70:	0x00000006	0x0804c13c	0x0804c148	0xf7fb8d60
+0xffffcf80:	0x0804c520	0x00000001	0xffffd064	0xa458fc00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) si
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) 
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000001
+0xffffcf60:	0x00000002	0x00000003	0x00000004	0x00000005
+0xffffcf70:	0x00000006	0x0804c13c	0x0804c148	0xf7fb8d60
+0xffffcf80:	0x0804c520	0x00000001	0xffffd064	0xa458fc00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) info registers 
+eax            0x1	1
+ecx            0x3	3
+edx            0x804c148	134529352
+ebx            0x2	2
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x2	2
+edi            0xf7fb8000	-134512640
+eip            0x8048e3c	0x8048e3c <phase_6+124>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) info registers 
+eax            0x3	3
+ecx            0x3	3
+edx            0x804c154	134529364
+ebx            0x2	2
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x2	2
+edi            0xf7fb8000	-134512640
+eip            0x8048e43	0x8048e43 <phase_6+131>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e47 in phase_6 ()
+(gdb) 
+0x08048e4a in phase_6 ()
+(gdb) 
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) 
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) 
+0x08048e47 in phase_6 ()
+(gdb) 
+0x08048e4a in phase_6 ()
+(gdb) 
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) 
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) 
+0x08048e47 in phase_6 ()
+(gdb) 
+0x08048e4a in phase_6 ()
+(gdb) info registers 
+eax            0x5	5
+ecx            0x5	5
+edx            0x804c16c	134529388
+ebx            0x5	5
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x4	4
+edi            0xf7fb8000	-134512640
+eip            0x8048e4a	0x8048e4a <phase_6+138>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) 
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) 
+0x08048e47 in phase_6 ()
+(gdb) 
+0x08048e4a in phase_6 ()
+(gdb) info registers 
+eax            0x6	6
+ecx            0x6	6
+edx            0x804c178	134529400
+ebx            0x6	6
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x5	5
+edi            0xf7fb8000	-134512640
+eip            0x8048e4a	0x8048e4a <phase_6+138>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000001
+0xffffcf60:	0x00000002	0x00000003	0x00000004	0x00000005
+0xffffcf70:	0x00000006	0x0804c13c	0x0804c148	0x0804c154
+0xffffcf80:	0x0804c160	0x0804c16c	0x0804c178	0xa458fc00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) si
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e4f in phase_6 ()
+(gdb) 
+0x08048e53 in phase_6 ()
+(gdb) info registers ebx
+ebx            0x804c13c	134529340
+(gdb) info registers 
+eax            0x6	6
+ecx            0x6	6
+edx            0x804c178	134529400
+ebx            0x804c13c	134529340
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x5	5
+edi            0xf7fb8000	-134512640
+eip            0x8048e53	0x8048e53 <phase_6+147>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000001
+0xffffcf60:	0x00000002	0x00000003	0x00000004	0x00000005
+0xffffcf70:	0x00000006	0x0804c13c	0x0804c148	0x0804c154
+0xffffcf80:	0x0804c160	0x0804c16c	0x0804c178	0xa458fc00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) x/20x 0x24($esp)
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00000024 in ?? ()
+The program being debugged was signaled while in a function called from GDB.
+GDB remains in the frame where the signal was received.
+To change this behavior use "set unwindonsignal on".
+Evaluation of the expression containing the function
+(at 0x0x24) will be abandoned.
+When the function is done executing, GDB will silently stop.
+(gdb) si
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+(gdb) si
+The program is not being run.
+(gdb) r
+Starting program: /home/gary/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854/bomb 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Crikey! I have lost my mojo!
+Phase 1 defused. How about the next one?
+1 2 4 8 16 32
+That's number 2.  Keep going!
+1 -681
+Halfway there!
+1 11
+So you got that one.  Try this one.
+AABDDD
+
+Breakpoint 1, 0x08048d78 in phase_5 ()
+(gdb) s
+Single stepping until exit from function phase_5,
+which has no line number information.
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:102
+102	    phase_defused();
+(gdb) s
+103	    printf("Good work!  On to the next...\n");
+(gdb) s
+printf (__fmt=<synthetic pointer>) at /usr/include/i386-linux-gnu/bits/stdio2.h:104
+104	/usr/include/i386-linux-gnu/bits/stdio2.h: 没有那个文件或目录.
+(gdb) s
+Good work!  On to the next...
+main (argc=<optimized out>, argv=<optimized out>) at bomb.c:107
+107	    input = read_line();
+(gdb) s
+1 2 3 4 5 6
+108	    phase_6(input);
+(gdb) si
+0x08048add	108	    phase_6(input);
+(gdb) 
+0x08048dc0 in phase_6 ()
+(gdb) 
+0x08048dc1 in phase_6 ()
+(gdb) 
+0x08048dc2 in phase_6 ()
+(gdb) 
+0x08048dc5 in phase_6 ()
+(gdb) 
+0x08048dcb in phase_6 ()
+(gdb) 
+0x08048dcf in phase_6 ()
+(gdb) 
+0x08048dd1 in phase_6 ()
+(gdb) 
+0x08048dd5 in phase_6 ()
+(gdb) 
+0x08048dd6 in phase_6 ()
+(gdb) 
+0x08048dda in phase_6 ()
+(gdb) 
+0x0804910b in read_six_numbers ()
+(gdb) 
+0x0804910e in read_six_numbers ()
+(gdb) 
+0x08049112 in read_six_numbers ()
+(gdb) 
+0x08049115 in read_six_numbers ()
+(gdb) 
+0x08049116 in read_six_numbers ()
+(gdb) 
+0x08049119 in read_six_numbers ()
+(gdb) 
+0x0804911a in read_six_numbers ()
+(gdb) 
+0x0804911d in read_six_numbers ()
+(gdb) 
+0x0804911e in read_six_numbers ()
+(gdb) 
+0x08049121 in read_six_numbers ()
+(gdb) 
+0x08049122 in read_six_numbers ()
+(gdb) 
+0x08049125 in read_six_numbers ()
+(gdb) 
+0x08049126 in read_six_numbers ()
+(gdb) 
+0x08049127 in read_six_numbers ()
+(gdb) 
+0x0804912c in read_six_numbers ()
+(gdb) 
+0x08049130 in read_six_numbers ()
+(gdb) 
+0x08048810 in __isoc99_sscanf@plt ()
+(gdb) 
+0xf7e639b0 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) 
+0xf7e639b3 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) 
+0xf7e639b7 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) 
+0xf7e639ba in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) 
+0xf7e639bb in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) 
+0xf7e639bf in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) 
+0xf7e639c3 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) 
+0xf7e639d0 in __isoc99_vsscanf () from /lib32/libc.so.6
+(gdb) 
+0xf7e639d1 in __isoc99_vsscanf () from /lib32/libc.so.6
+(gdb) 
+0xf7e639d2 in __isoc99_vsscanf () from /lib32/libc.so.6
+(gdb) s
+Single stepping until exit from function __isoc99_vsscanf,
+which has no line number information.
+0xf7e639c8 in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) si
+0xf7e639cb in __isoc99_sscanf () from /lib32/libc.so.6
+(gdb) s
+Single stepping until exit from function __isoc99_sscanf,
+which has no line number information.
+0x08049135 in read_six_numbers ()
+(gdb) s
+Single stepping until exit from function read_six_numbers,
+which has no line number information.
+0x08048ddf in phase_6 ()
+(gdb) si
+0x08048de2 in phase_6 ()
+(gdb) 
+0x08048de7 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) 
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) 
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) 
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) 
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) 
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048df1 in phase_6 ()
+(gdb) 
+0x08048df3 in phase_6 ()
+(gdb) 
+0x08048df7 in phase_6 ()
+(gdb) 
+0x08048dfb in phase_6 ()
+(gdb) 
+0x08048dfd in phase_6 ()
+(gdb) 
+0x08048e00 in phase_6 ()
+(gdb) 
+0x08048e03 in phase_6 ()
+(gdb) 
+0x08048e05 in phase_6 ()
+(gdb) 
+0x08048e09 in phase_6 ()
+(gdb) 
+0x08048e0c in phase_6 ()
+(gdb) 
+0x08048e0f in phase_6 ()
+(gdb) 
+0x08048de9 in phase_6 ()
+(gdb) 
+0x08048dec in phase_6 ()
+(gdb) 
+0x08048def in phase_6 ()
+(gdb) 
+0x08048e1f in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) 
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) 
+0x08048e47 in phase_6 ()
+(gdb) 
+0x08048e4a in phase_6 ()
+(gdb) 
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) 
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) 
+0x08048e47 in phase_6 ()
+(gdb) 
+0x08048e4a in phase_6 ()
+(gdb) 
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) 
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) 
+0x08048e47 in phase_6 ()
+(gdb) 
+0x08048e4a in phase_6 ()
+(gdb) 
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) 
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) 
+0x08048e47 in phase_6 ()
+(gdb) 
+0x08048e4a in phase_6 ()
+(gdb) 
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) 
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) 
+0x08048e47 in phase_6 ()
+(gdb) 
+0x08048e4a in phase_6 ()
+(gdb) 
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e24 in phase_6 ()
+(gdb) 
+0x08048e26 in phase_6 ()
+(gdb) 
+0x08048e2a in phase_6 ()
+(gdb) 
+0x08048e2f in phase_6 ()
+(gdb) 
+0x08048e34 in phase_6 ()
+(gdb) 
+0x08048e37 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e39 in phase_6 ()
+(gdb) 
+0x08048e3c in phase_6 ()
+(gdb) 
+0x08048e3f in phase_6 ()
+(gdb) 
+0x08048e41 in phase_6 ()
+(gdb) 
+0x08048e43 in phase_6 ()
+(gdb) 
+0x08048e47 in phase_6 ()
+(gdb) 
+0x08048e4a in phase_6 ()
+(gdb) 
+0x08048e4d in phase_6 ()
+(gdb) 
+0x08048e4f in phase_6 ()
+(gdb) 
+0x08048e53 in phase_6 ()
+(gdb) info registers 
+eax            0x6	6
+ecx            0x6	6
+edx            0x804c178	134529400
+ebx            0x804c13c	134529340
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x5	5
+edi            0xf7fb8000	-134512640
+eip            0x8048e53	0x8048e53 <phase_6+147>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000001
+0xffffcf60:	0x00000002	0x00000003	0x00000004	0x00000005
+0xffffcf70:	0x00000006	0x0804c13c	0x0804c148	0x0804c154
+0xffffcf80:	0x0804c160	0x0804c16c	0x0804c178	0x76630f00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) x/20x 0x0804c13c
+0x804c13c <node1>:	0x00000072	0x00000001	0x0804c148	0x00000157
+0x804c14c <node2+4>:	0x00000002	0x0804c154	0x00000399	0x00000003
+0x804c15c <node3+8>:	0x0804c160	0x000000a6	0x00000004	0x0804c16c
+0x804c16c <node5>:	0x00000233	0x00000005	0x0804c178	0x000003d9
+0x804c17c <node6+4>:	0x00000006	0x00000000	0x0c05eca6	0x00000000
+(gdb) si
+0x08048e55 in phase_6 ()
+(gdb) si
+0x08048e5a in phase_6 ()
+(gdb) 
+0x08048e5e in phase_6 ()
+(gdb) 
+0x08048e61 in phase_6 ()
+(gdb) 
+0x08048e64 in phase_6 ()
+(gdb) 
+0x08048e66 in phase_6 ()
+(gdb) info registers 
+eax            0x2	2
+ecx            0x804c148	134529352
+edx            0x804c148	134529352
+ebx            0x804c13c	134529340
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x5	5
+edi            0xf7fb8000	-134512640
+eip            0x8048e66	0x8048e66 <phase_6+166>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x $esp
+0xffffcf50:	0xf7e72187	0xf7fb8000	0xf7e2d1f5	0x00000001
+0xffffcf60:	0x00000002	0x00000003	0x00000004	0x00000005
+0xffffcf70:	0x00000006	0x0804c13c	0x0804c148	0x0804c154
+0xffffcf80:	0x0804c160	0x0804c16c	0x0804c178	0x76630f00
+0xffffcf90:	0xffffd064	0xffffd064	0xf7fb8000	0x08048ae2
+(gdb) x/20x 0x0804c13c
+0x804c13c <node1>:	0x00000072	0x00000001	0x0804c148	0x00000157
+0x804c14c <node2+4>:	0x00000002	0x0804c154	0x00000399	0x00000003
+0x804c15c <node3+8>:	0x0804c160	0x000000a6	0x00000004	0x0804c16c
+0x804c16c <node5>:	0x00000233	0x00000005	0x0804c178	0x000003d9
+0x804c17c <node6+4>:	0x00000006	0x00000000	0x0c05eca6	0x00000000
+(gdb) si
+0x08048e69 in phase_6 ()
+(gdb) 
+0x08048e5a in phase_6 ()
+(gdb) 
+0x08048e5e in phase_6 ()
+(gdb) 
+0x08048e61 in phase_6 ()
+(gdb) 
+0x08048e64 in phase_6 ()
+(gdb) 
+0x08048e66 in phase_6 ()
+(gdb) info registers 
+eax            0x3	3
+ecx            0x804c154	134529364
+edx            0x804c154	134529364
+ebx            0x804c13c	134529340
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x5	5
+edi            0xf7fb8000	-134512640
+eip            0x8048e66	0x8048e66 <phase_6+166>
+eflags         0x206	[ PF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e69 in phase_6 ()
+(gdb) 
+0x08048e5a in phase_6 ()
+(gdb) 
+0x08048e5e in phase_6 ()
+(gdb) 
+0x08048e61 in phase_6 ()
+(gdb) 
+0x08048e64 in phase_6 ()
+(gdb) 
+0x08048e66 in phase_6 ()
+(gdb) 
+0x08048e69 in phase_6 ()
+(gdb) 
+0x08048e5a in phase_6 ()
+(gdb) 
+0x08048e5e in phase_6 ()
+(gdb) 
+0x08048e61 in phase_6 ()
+(gdb) 
+0x08048e64 in phase_6 ()
+(gdb) 
+0x08048e66 in phase_6 ()
+(gdb) 
+0x08048e69 in phase_6 ()
+(gdb) 
+0x08048e5a in phase_6 ()
+(gdb) 
+0x08048e5e in phase_6 ()
+(gdb) 
+0x08048e61 in phase_6 ()
+(gdb) 
+0x08048e64 in phase_6 ()
+(gdb) 
+0x08048e66 in phase_6 ()
+(gdb) 
+0x08048e69 in phase_6 ()
+(gdb) info registers 
+eax            0x6	6
+ecx            0x804c178	134529400
+edx            0x804c178	134529400
+ebx            0x804c13c	134529340
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x5	5
+edi            0xf7fb8000	-134512640
+eip            0x8048e69	0x8048e69 <phase_6+169>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e6b in phase_6 ()
+(gdb) 
+0x08048e72 in phase_6 ()
+(gdb) 
+0x08048e77 in phase_6 ()
+(gdb) 
+0x08048e81 in phase_6 ()
+(gdb) info registers 
+eax            0x6	6
+ecx            0x804c178	134529400
+edx            0x804c178	134529400
+ebx            0x804c13c	134529340
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x5	5
+edi            0xf7fb8000	-134512640
+eip            0x8048e81	0x8048e81 <phase_6+193>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e84 in phase_6 ()
+(gdb) info registers 
+eax            0x804c148	134529352
+ecx            0x804c178	134529400
+edx            0x804c178	134529400
+ebx            0x804c13c	134529340
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x5	5
+edi            0xf7fb8000	-134512640
+eip            0x8048e84	0x8048e84 <phase_6+196>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) si
+0x08048e86 in phase_6 ()
+(gdb) info registers 
+eax            0x157	343
+ecx            0x804c178	134529400
+edx            0x804c178	134529400
+ebx            0x804c13c	134529340
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x5	5
+edi            0xf7fb8000	-134512640
+eip            0x8048e86	0x8048e86 <phase_6+198>
+eflags         0x246	[ PF ZF IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) x/20x 0x804c13c
+0x804c13c <node1>:	0x00000072	0x00000001	0x0804c148	0x00000157
+0x804c14c <node2+4>:	0x00000002	0x0804c154	0x00000399	0x00000003
+0x804c15c <node3+8>:	0x0804c160	0x000000a6	0x00000004	0x0804c16c
+0x804c16c <node5>:	0x00000233	0x00000005	0x0804c178	0x000003d9
+0x804c17c <node6+4>:	0x00000006	0x00000000	0x0c05eca6	0x00000000
+(gdb) si
+0x08048e88 in phase_6 ()
+(gdb) 
+0x08048e79 in phase_6 ()
+(gdb) 
+0x08048e7c in phase_6 ()
+(gdb) 
+0x08048e7f in phase_6 ()
+(gdb) 
+0x08048e81 in phase_6 ()
+(gdb) 
+0x08048e84 in phase_6 ()
+(gdb) 
+0x08048e86 in phase_6 ()
+(gdb) info registers 
+eax            0x399	921
+ecx            0x804c178	134529400
+edx            0x804c178	134529400
+ebx            0x804c148	134529352
+esp            0xffffcf50	0xffffcf50
+ebp            0xffffcfb8	0xffffcfb8
+esi            0x4	4
+edi            0xf7fb8000	-134512640
+eip            0x8048e86	0x8048e86 <phase_6+198>
+eflags         0x202	[ IF ]
+cs             0x23	35
+ss             0x2b	43
+ds             0x2b	43
+es             0x2b	43
+fs             0x0	0
+gs             0x63	99
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 3366] will be killed.
+
+Quit anyway? (y or n) y
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vi U201714854.txt 
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ vi U201714854.txt 
+gary@gary:~/文档/system_structure/System-Fondation-Lab/CS20170708/U201714854$ ./bomb U201714854.txt 
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+Halfway there!
+So you got that one.  Try this one.
+Good work!  On to the next...
+Congratulations! You've defused the bomb!
