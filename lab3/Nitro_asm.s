@@ -1,6 +1,4 @@
-lea 0x208(%esp),%eax
-pop %ebp
-push %eax
-mov 0x804c220,%eax
-mov %eax,0x804c218
+lea 0x28(%esp),%ebp
+mov 0x1b8eba6e,%eax
+push $0x8048e15
 ret
